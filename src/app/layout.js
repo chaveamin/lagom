@@ -1,15 +1,7 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const dana = localFont({ src: "./DanaVF.woff2", variable: "--font-dana" });
 
 export const metadata = {
   title: "قالب ناحیه کاربری WHMCS لاگوم",
@@ -21,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        className={`${dana.variable} font-dana antialiased px-8 2xl:max-w-8xl lg:max-w-5xl w-full mx-auto`}>
         {children}
       </body>
     </html>

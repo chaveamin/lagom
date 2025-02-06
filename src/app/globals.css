@@ -1,37 +1,20 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
+@theme {
+  --shadow-3xl: 0 30px 30px -1px rgba(30, 45, 70, 0.05);
+  --container-8xl: 1384px;
+  --font-dana: "dana", tahoma;
+  --font-dana--font-feature-settings: "ss02";
+  --animate-fadeInUp: fadeInUp 0.3s;
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 10px, 0);
+    }
 
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
+    to {
+      opacity: 1;
+      transform: translateZ(0);
+    }
   }
-}
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
