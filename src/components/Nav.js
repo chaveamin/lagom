@@ -6,7 +6,8 @@ import clientThemeIcon from "@/images/client-theme.svg";
 import websiteBuilderIcon from "@/images/websitebuilder.svg";
 import oneSteoIcon from "@/images/onestep.svg";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import clsx from "clsx";
 import {
   Dialog,
   DialogPanel,
@@ -97,13 +98,32 @@ function ChevronDownIcon() {
 
 function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <header className="relative lg:top-10 isolate z-10 bg-white">
-      <nav aria-label="Global" className="mx-auto flex items-center py-6">
+    <header
+      className={clsx(
+        "sticky rounded-xl z-10 bg-white/90 backdrop-blur-sm transition-all",
+        isScrolled
+          ? "lg:top-5 shadow-sm shadow-zinc-800/5 ring-1 ring-zinc-900/5"
+          : "lg:top-10"
+      )}>
+      <nav aria-label="Global" className="flex p-6">
         <div className="flex flex-1">
           <Link href="/">
-            <span className="sr-only">امین چاوه پور</span>
+            <span className="sr-only">لاگوم</span>
             <Image className="h-12 w-auto" src={lagom} alt="لاگوم" />
           </Link>
         </div>
@@ -124,7 +144,7 @@ function Nav() {
 
             <PopoverPanel
               transition
-              className="absolute inset-x-0 rounded-xl top-20 -z-10 bg-white pt-14 shadow-sm ring-1 ring-zinc-900/5 transition data-[closed]:-translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in">
+              className="absolute inset-x-0 rounded-b-xl top-20 -z-10 bg-white pt-14 shadow-sm shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition data-[closed]:-translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in">
               <div className="mx-auto grid max-w-7xl grid-cols-3 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8">
                 {NavMenus.map((item) => (
                   <div
@@ -158,7 +178,7 @@ function Nav() {
             افزونه ها
           </Link>
           <Link
-            href="#pricing"
+            href="/#pricing"
             className="text-sm font-semibold text-white cursor-pointer bg-blue-600 hover:bg-blue-700 py-2 px-4 rounded-md transition-colors">
             سفارش دهید
           </Link>
@@ -172,7 +192,7 @@ function Nav() {
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-zinc-900/10">
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">امین چاوه پور</span>
+              <span className="sr-only">لاگوم</span>
               <Image alt="لوگو" src={lagomsm} className="h-12 w-auto" />
             </Link>
             <button
