@@ -2,6 +2,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 import Topbar from "@/components/Topbar";
 import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 const dana = localFont({ src: "./DanaVF.woff2", variable: "--font-dana" });
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <Topbar></Topbar>
         <Nav></Nav>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );
