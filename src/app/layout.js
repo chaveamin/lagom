@@ -15,8 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
-      <body
-        className={`${dana.variable} font-dana h-[70rem] antialiased px-8 2xl:max-w-8xl lg:max-w-5xl w-full mx-auto`}>
+      <body className={`${dana.variable} font-dana antialiased px-8`}>
         <Topbar></Topbar>
         <Nav></Nav>
         {children}

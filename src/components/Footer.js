@@ -88,7 +88,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <Image alt="لاگوم" src={lagom} className="w-32 h-auto" />
+            <Image alt="لاگوم" src={lagom} className="w-24 h-auto" />
             <p className="text-base font-light text-zinc-600">
               لاگوم پکیج حرفه ای قالب ها و ابزارهای WHMCS که برای ارتقای کسب و
               کار هاستینگ شما طراحی شده اند و تجربه کاربری یکپارچه و حرفه ای را

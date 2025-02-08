@@ -124,7 +124,7 @@ function Nav() {
         <div className="flex flex-1">
           <Link href="/">
             <span className="sr-only">لاگوم</span>
-            <Image className="h-12 w-auto" src={lagom} alt="لاگوم" />
+            <Image className="h-10 w-auto" src={lagom} alt="لاگوم" />
           </Link>
         </div>
         <div className="flex lg:hidden">
