@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const transition = {
   duration: 0.9,
@@ -37,7 +38,7 @@ export default function ClientDashboard() {
           transition={transition_l}
           initial={{ translateY: "25px", opacity: 0 }}
           whileInView={{ translateY: "0", opacity: 1 }}
-          className="shadow-4xl rounded-lg absolute top-24 -left-30"
+          className="shadow-4xl rounded-lg absolute top-24 -right-30"
           src="client-dashboard-left.png"
           alt="ناحیه کاربری لاگوم"
         />
@@ -47,7 +48,7 @@ export default function ClientDashboard() {
           transition={transition_r}
           initial={{ translateY: "25px", opacity: 0 }}
           whileInView={{ translateY: "0", opacity: 1 }}
-          className="shadow-4xl rounded-lg absolute top-70 -right-30"
+          className="shadow-4xl rounded-lg absolute top-70 -left-30"
           src="client-dashboard-right.png"
           alt="ناحیه کاربری لاگوم"
         />
