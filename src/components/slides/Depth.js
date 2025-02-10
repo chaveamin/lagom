@@ -21,6 +21,7 @@ export default function Depth() {
         {colors.map((color) => (
           <SwiperSlide className="relative lg:pt-18 pt-4 pb-24" key={color}>
             <a
+              target="_blank"
               className="cursor-[url(/cursor.png)_32_32,auto!important]"
               href={`https://demo.rsstudio.net/lagom/index.php?rsstyle=depth&rsmenulayout=left-nav&rscolorstyle=${color}`}>
               <img
