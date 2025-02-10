@@ -36,12 +36,12 @@ export default function Hero() {
           </p>
           <div className="flex items-center flex-col lg:flex-row gap-y-6 lg:gap-x-6 *:text-center *:rounded-lg *:px-7 *:py-3 *:text-xl *:font-medium">
             <a
-              className="bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+              className="bg-blue-600 text-white hover:bg-blue-700 lg:w-fit w-full transition-colors"
               href="#pricing">
               قیمت گذاری
             </a>
             <a
-              className="bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-100 transition-colors"
+              className="bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-100 lg:w-fit w-full transition-colors"
               href="">
               پیشنمایش
             </a>

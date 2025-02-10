@@ -19,12 +19,12 @@ export default function Default() {
     <>
       <Swiper pagination={pagination} modules={[Pagination]}>
         {colors.map((color) => (
-          <SwiperSlide className="relative pt-18 pb-24" key={color}>
+          <SwiperSlide className="relative lg:pt-18 pt-4 pb-24" key={color}>
             <a
               className="cursor-[url(/cursor.png)_32_32,auto!important]"
               href={`https://demo.rsstudio.net/lagom/index.php?rsstyle=default&rsmenulayout=left-nav&rscolorstyle=${color}`}>
               <img
-                className="max-w-3/4 mx-auto ring-1 shadow-4xl shadow-zinc-800/5 ring-zinc-900/8 rounded-xl"
+                className="lg:max-w-3/4 max-w-9/10 mx-auto ring-1 shadow-xl lg:shadow-4xl shadow-zinc-800/5 ring-zinc-900/8 rounded-xl"
                 alt={`${color}-style`}
                 src={`/default-${color}.png`}
               />
