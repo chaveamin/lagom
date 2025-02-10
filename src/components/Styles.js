@@ -1,62 +1,32 @@
-import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
+import {
+  Tab,
+  TabGroup,
+  TabList,
+  TabPanel,
+  TabPanels,
+  Transition,
+} from "@headlessui/react";
+import Modern from "@/components/slides/Modern";
+import Default from "@/components/slides/Default";
+import Depth from "@/components/slides/Depth";
+import Futuristic from "@/components/slides/Futuristic";
 
-const categories = [
+const slides = [
   {
-    name: "Recent",
-    posts: [
-      {
-        id: 1,
-        title: "Does drinking coffee make you smarter?",
-        date: "5h ago",
-        commentCount: 5,
-        shareCount: 2,
-      },
-      {
-        id: 2,
-        title: "So you've bought coffee... now what?",
-        date: "2h ago",
-        commentCount: 3,
-        shareCount: 2,
-      },
-    ],
+    name: "Modern Style",
+    slide: Modern,
   },
   {
-    name: "Popular",
-    posts: [
-      {
-        id: 1,
-        title: "Is tech making coffee better or worse?",
-        date: "Jan 7",
-        commentCount: 29,
-        shareCount: 16,
-      },
-      {
-        id: 2,
-        title: "The most innovative things happening in coffee",
-        date: "Mar 19",
-        commentCount: 24,
-        shareCount: 12,
-      },
-    ],
+    name: "Default Style",
+    slide: Default,
   },
   {
-    name: "Trending",
-    posts: [
-      {
-        id: 1,
-        title: "Ask Me Anything: 10 answers to your questions about coffee",
-        date: "2d ago",
-        commentCount: 9,
-        shareCount: 5,
-      },
-      {
-        id: 2,
-        title: "The worst advice we've ever heard about coffee",
-        date: "4d ago",
-        commentCount: 1,
-        shareCount: 2,
-      },
-    ],
+    name: "Depth Style",
+    slide: Depth,
+  },
+  {
+    name: "Futuristic Style",
+    slide: Futuristic,
   },
 ];
 
@@ -72,43 +42,23 @@ export default function Styles() {
           رنگی مختلف برای هر سبک موجود است.
         </p>
       </div>
-      <div className="flex h-screen w-full justify-center mt-24 px-4">
+      <div className="flex w-full justify-center mt-12 px-4">
         <div className="w-full">
           <TabGroup>
-            <TabList className="flex gap-4 mx-auto max-w-md rounded-lg shadow">
-              {categories.map(({ name }) => (
+            <TabList className="flex mx-auto max-w-2xl rounded-lg shadow">
+              {slides.map(({ name }) => (
                 <Tab
                   key={name}
-                  className="text-lg text-center font-bold w-full text-zinc-500 hover:text-zinc-700 rounded-lg group p-3 hover:bg-gray-50
-                  data-[selected]:text-zinc-900 data-[selected]:border-none data-[selected]:focus:none">
+                  className="text-lg cursor-pointer focus:outline-0 border-r border-zinc-200 text-center font-bold w-full text-zinc-500 hover:text-zinc-700 group p-3 hover:bg-gray-50 transition-colors
+                  data-[selected]:text-blue-600 data-[selected]:border-b-2 data-[selected]:border-b-blue-600">
                   {name}
                 </Tab>
               ))}
             </TabList>
             <TabPanels className="mt-3">
-              {categories.map(({ name, posts }) => (
-                <TabPanel key={name} className="rounded-xl bg-zinc-800/5 p-3">
-                  <ul>
-                    {posts.map((post) => (
-                      <li
-                        key={post.id}
-                        className="relative rounded-md p-3 text-sm/6 transition hover:bg-zinc-800/5">
-                        <a href="#" className="font-semibold text-zinc-800">
-                          <span className="absolute inset-0" />
-                          {post.title}
-                        </a>
-                        <ul
-                          className="flex gap-2 text-zinc-800/50"
-                          aria-hidden="true">
-                          <li>{post.date}</li>
-                          <li aria-hidden="true">&middot;</li>
-                          <li>{post.commentCount} comments</li>
-                          <li aria-hidden="true">&middot;</li>
-                          <li>{post.shareCount} shares</li>
-                        </ul>
-                      </li>
-                    ))}
-                  </ul>
+              {slides.map((s) => (
+                <TabPanel key={s.name}>
+                  <s.slide />
                 </TabPanel>
               ))}
             </TabPanels>
