@@ -57,28 +57,46 @@ export default function Extension() {
           پتانسیل کامل لاگوم را با افزونه های کاملا سازگار با WHMCS باز کنید.
         </p>
       </div>
-      <Swiper
-        className="ext-slider !py-20"
-        pagination={{ clickable: true }}
-        modules={[Pagination]}
-        slidesPerView={4}>
-        {extensions.map((e) => (
-          <SwiperSlide key={e.title}>
-            <a
-              href={e.href}
-              className="w-72 mx-auto py-12 flex items-center flex-col rounded-lg ring ring-zinc-200 shadow-lg shadow-zinc-800/8">
-              <Image className="size-28" src={e.icon} alt={e.title} />
-              <h3 className="font-bold mt-10 mb-4 text-xl text-zinc-800">
-                {e.title}
-              </h3>
-              <p className="font-light text-zinc-800">{e.price} تومان/سالانه</p>
-              <button className="font-semibold cursor-pointer text-lg text-zinc-600 mt-8 hover:text-blue-600 transition-colors">
-                اطلاعات بیشتر
-              </button>
-            </a>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <motion.div
+        initial={{ translateY: "25px", opacity: 0 }}
+        whileInView={{ translateY: "0", opacity: 1 }}
+        transition={{ delay: "0.5", duration: "0.6" }}>
+        <Swiper
+          className="ext-slider !py-20"
+          pagination={{ clickable: true }}
+          modules={[Pagination]}
+          slidesPerView={4}
+          breakpoints={{
+            400: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 4,
+            },
+          }}>
+          {extensions.map((e) => (
+            <SwiperSlide key={e.title}>
+              <a
+                href={e.href}
+                className="w-72 mx-auto py-12 flex items-center flex-col rounded-lg ring ring-zinc-200 shadow-lg shadow-zinc-800/8">
+                <Image className="size-28" src={e.icon} alt={e.title} />
+                <h3 className="font-bold mt-10 mb-4 text-xl text-zinc-800">
+                  {e.title}
+                </h3>
+                <p className="font-light text-zinc-800">
+                  {e.price} تومان/سالانه
+                </p>
+                <button className="font-semibold cursor-pointer text-lg text-zinc-600 mt-8 hover:text-blue-600 transition-colors">
+                  اطلاعات بیشتر
+                </button>
+              </a>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </motion.div>
     </section>
   );
 }
