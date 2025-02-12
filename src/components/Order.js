@@ -2,7 +2,7 @@ import * as motion from "motion/react-client";
 
 export default function Order() {
   return (
-    <section>
+    <section className="py-22">
       <div className="w-full lg:max-w-5xl mx-auto flex flex-col lg:gap-y-10 gap-y-4">
         <h2 className="lg:text-5xl text-3xl leading-14 font-black text-zinc-800">
           قالب فرم سفارش
