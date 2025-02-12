@@ -1,7 +1,6 @@
 "use client";
 
 import * as motion from "motion/react-client";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";

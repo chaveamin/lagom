@@ -7,6 +7,7 @@ import DifferentLayout from "@/components/DifferentLayout";
 import Order from "@/components/Order";
 import Extension from "@/components/Extension";
 import Other from "@/components/Other";
+import Customer from "@/components/Customer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Order />
       <Extension />
       <Other />
+      <Customer />
     </>
   );
 }
