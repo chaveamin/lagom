@@ -66,7 +66,7 @@ export default function Extension() {
           modules={[Pagination]}
           slidesPerView={4}
           breakpoints={{
-            400: {
+            300: {
               slidesPerView: 1,
             },
             768: {

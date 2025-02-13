@@ -9,6 +9,7 @@ import Extension from "@/components/Extension";
 import Other from "@/components/Other";
 import Customer from "@/components/Customer";
 import Pricing from "@/components/Pricing";
+import CTA from "@/components/CTA";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Other />
       <Customer />
       <Pricing />
+      <CTA />
     </>
   );
 }

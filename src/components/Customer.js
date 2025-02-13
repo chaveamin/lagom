@@ -45,7 +45,7 @@ const customers = [
 
 export default function Customer() {
   return (
-    <section className="py-22 bg-slate-50 rounded-2xl">
+    <section className="py-22 px-8 bg-slate-50 rounded-2xl">
       <div className="w-full lg:max-w-5xl mx-auto flex flex-col lg:gap-y-10 gap-y-4">
         <h2 className="lg:text-5xl text-3xl leading-14 font-black text-zinc-800">
           مشتریان

@@ -9,8 +9,8 @@ export default function Pricing() {
         </h2>
       </div>
       <div
-        className="flex gap-x-8 *:flex *:items-center *:justify-center max-w-5xl mx-auto
-      *:flex-col *:bg-zinc-50 *:ring *:ring-zinc-200 *:shadow-sm *:rounded-lg *:p-6 *:w-lg
+        className="flex flex-wrap lg:flex-nowrap gap-y-8 lg:gap-x-8 *:flex *:items-center *:justify-center max-w-5xl mx-auto
+      *:flex-col *:bg-zinc-50 *:ring *:ring-zinc-200 *:shadow-sm *:rounded-lg *:p-6 *:w-md *:lg:w-lg
        *:hover:shadow-lg *:hover:-translate-y-2 *:transition-transform">
         <div>
           <h4 className="text-3xl font-light leading-10">امگا</h4>
