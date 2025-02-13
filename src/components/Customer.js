@@ -7,15 +7,39 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import uk from "@/images/projects-webhostinguk.png";
 import digitalvps from "@/images/digitalvps.png";
+import fannegarhost from "@/images/fannegarhost.png";
+import anicloud from "@/images/anicloud.png";
+import serversetup from "@/images/serversetup.png";
 import Image from "next/image";
 
 const customers = [
   {
-    href: "#",
+    href: "https://client.digitalvps.ir/",
     image: uk,
     name: "دیجیتال وی پی اس",
     logo: digitalvps,
     address: "digitalvps.ir",
+  },
+  {
+    href: "https://panel.fannegar-host.com/",
+    image: uk,
+    name: "فن نگار هاست",
+    logo: fannegarhost,
+    address: "panel.fannegar-host.com",
+  },
+  {
+    href: "https://my.anicloud.ir/",
+    image: uk,
+    name: "انی کلاود",
+    logo: anicloud,
+    address: "my.anicloud.ir",
+  },
+  {
+    href: "https://client.serversetup.co/",
+    image: uk,
+    name: "سرور ستاپ",
+    logo: serversetup,
+    address: "client.serversetup.co",
   },
 ];
 
@@ -37,10 +61,11 @@ export default function Customer() {
         whileInView={{ translateY: "0", opacity: 1 }}
         transition={{ delay: "0.5", duration: "0.6" }}>
         <Swiper
-          className="ext-slider !py-20"
+          className="ext-slider !py-20 !px-10"
           pagination={{ clickable: true }}
           modules={[Pagination]}
-          slidesPerView={4}
+          slidesPerView={3}
+          spaceBetween={25}
           breakpoints={{
             400: {
               slidesPerView: 1,
@@ -49,15 +74,15 @@ export default function Customer() {
               slidesPerView: 2,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 3,
             },
           }}>
           {customers.map((c) => (
             <SwiperSlide key={c.name}>
               <a
                 href={c.href}
-                className="mx-auto bg-white flex flex-col rounded-lg ring ring-zinc-300 shadow-md">
-                <Image className="rounded-lg" src={c.image} alt={c.name} />
+                target="_blank"
+                className="mx-auto bg-white flex flex-col rounded-lg ring ring-zinc-300 shadow-sm">
                 <div className="flex items-center p-8 w-full">
                   <div>
                     <h3 className="font-semibold text-xl mb-2">{c.name}</h3>

@@ -8,6 +8,7 @@ import Order from "@/components/Order";
 import Extension from "@/components/Extension";
 import Other from "@/components/Other";
 import Customer from "@/components/Customer";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Extension />
       <Other />
       <Customer />
+      <Pricing />
     </>
   );
 }
