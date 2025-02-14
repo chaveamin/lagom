@@ -144,12 +144,15 @@ function Nav() {
 
             <PopoverPanel
               transition
-              className="absolute inset-x-0 rounded-b-xl top-20 -z-10 bg-white pt-14 shadow-sm shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition data-[closed]:-translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in">
+              className={clsx(
+                "absolute inset-x-0  top-20 -z-10 bg-white pt-14 shadow-sm shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition data-[closed]:-translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in",
+                isScrolled ? "rounded-b-xl" : "rounded-xl"
+              )}>
               <div className="mx-auto grid max-w-7xl grid-cols-3 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8">
                 {NavMenus.map((item) => (
                   <div
                     key={item.name}
-                    className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-zinc-50 transition-colors">
+                    className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-blue-50 transition-colors">
                     <div className="flex h-22 w-22 items-center justify-center rounded-lg bg-zinc-50 group-hover:bg-white">
                       <Image
                         width={48}
@@ -160,11 +163,11 @@ function Nav() {
                     </div>
                     <a
                       href={item.href}
-                      className="mt-6 block text-lg font-bold text-zinc-800 group-hover:text-blue-500 transition-colors">
+                      className="mt-6 block text-lg font-bold text-zinc-800 group-hover:text-blue-600 transition-colors">
                       {item.name}
                       <span className="absolute inset-0" />
                     </a>
-                    <p className="mt-1 text-base text-zinc-500">
+                    <p className="mt-1 text-base text-zinc-500 group-hover:text-blue-600">
                       {item.description}
                     </p>
                   </div>
