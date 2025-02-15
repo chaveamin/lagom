@@ -10,10 +10,12 @@ import Other from "@/components/Other";
 import Customer from "@/components/Customer";
 import Pricing from "@/components/Pricing";
 import CTA from "@/components/CTA";
+import Bg from "@/components/Bg";
 
 export default function Home() {
   return (
     <>
+      <Bg />
       <Hero />
       <ClientDashboard />
       <Styles />

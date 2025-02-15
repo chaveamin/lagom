@@ -32,7 +32,7 @@ const NavMenus = [
   {
     name: "سایت ساز",
     description: "سایت ساز پیشرفته لاگوم، با چندین صفحه و بخش از پیش تعریف شده",
-    href: "https://designesia.ir/downloads/lagom-whmcs-theme/",
+    href: "/website-builder",
     icon: websiteBuilderIcon,
   },
   {
@@ -161,12 +161,14 @@ function Nav() {
                         src={item.icon}
                       />
                     </div>
-                    <a
+                    <PopoverButton
+                      as={Link}
+                      onClick={() => setMobileMenuOpen(false)}
                       href={item.href}
                       className="mt-6 block text-lg font-bold text-zinc-800 group-hover:text-blue-600 transition-colors">
                       {item.name}
                       <span className="absolute inset-0" />
-                    </a>
+                    </PopoverButton>
                     <p className="mt-1 text-base text-zinc-500 group-hover:text-blue-600">
                       {item.description}
                     </p>

@@ -20,34 +20,32 @@ export default function Hero() {
   return (
     <div className="relative pt-18 pb-24 w-full lg:max-w-3xl mx-auto">
       <div className="flex flex-col gap-y-8">
-        <h1 className="text-lg text-blue-600 font-bold">
-          قالب ناحیه کاربری WHMCS لاگوم
-        </h1>
+        <h1 className="text-lg text-blue-600 font-bold">سایت ساز قالب لاگوم</h1>
         <h2 className="font-light text-4xl lg:text-6xl text-zinc-800 leading-12 lg:leading-22">
-          <span className="font-extrabold">قالب WHMCS</span> ساده، شهودی و
-          کاملاً ریسپانسیو
+          <span className="font-extrabold">سایت ساز </span> قدرتمند برای قالب
+          لاگوم
         </h2>
         <p className="font-light text-xl lg:text-2xl text-zinc-600 leading-8 lg:leading-10">
-          قالب و فرم سفارش مجهز به طرح‌ بندی‌های متعدد، چندین سبک، مدیریت منو و
-          شخصی سازی رنگ های قالب.
+          با سایت ساز لاگوم حضور آنلاین خود را افزایش دهید. وبسایتی ایجاد کنید
+          که تأثیر ماندگاری از خود به جا بگذارد و با مشتریان شما طنین انداز شود.
         </p>
         <div className="flex items-center flex-col lg:flex-row gap-y-6 lg:gap-x-6 *:text-center *:rounded-lg *:px-7 *:py-3 *:text-xl *:font-medium">
           <a
             className="bg-blue-600 text-white hover:bg-blue-700 lg:w-fit w-full transition-colors"
             href="#pricing">
-            قیمت گذاری
+            تعرفه
           </a>
           <a
-            className="text-blue-600 border-2 border-blue-600 hover:bg-blue-100 lg:w-fit w-full transition-colors"
-            href="">
+            className="bg-white text-blue-600 border-2 border-blue-600 hover:bg-blue-100 lg:w-fit w-full transition-colors"
+            href="#">
             پیشنمایش
           </a>
           <a
             className="text-xl text-center lg:mr-auto text-blue-600 font-bold"
-            href="https://documentations.liara.run/docs/lagom"
+            href="https://documentations.liara.run/docs/website-builder"
             target="_blank">
             راهنمای محصول
-            <ExternalIcon></ExternalIcon>
+            <ExternalIcon />
           </a>
         </div>
       </div>
