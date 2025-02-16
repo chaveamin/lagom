@@ -5,33 +5,28 @@ import Image from "next/image";
 const demos = [
   {
     tab: "محبوب",
-    image: popular1,
-    href: "https://demo.rsstudio.net/lagom-website-builder",
-    title: "صفdحه fاصلی",
+    slides: [
+      {
+        image: popular1,
+        href: "https://demo.rsstudio.net/lagom-website-builder",
+        title: "855",
+      },
+      {
+        image: popular1,
+        href: "https://demo.rsstudio.net/lagom-website-builder",
+        title: "85005",
+      },
+    ],
   },
   {
-    tabName: "محصولات",
-    image: popular1,
-    href: "https://demo.rsstudio.net/lagom-website-builder",
-    title: "صفحه dاصلی",
-  },
-  {
-    tabName: "گیمینگ",
-    image: popular1,
-    href: "https://demo.rsstudio.net/lagom-website-builder",
-    title: "صفحه ddاصلی",
-  },
-  {
-    tabName: "امنیت و ابزارها",
-    image: popular1,
-    href: "https://demo.rsstudio.net/lagom-website-builder",
-    title: "صفحه fاصلی",
-  },
-  {
-    tabName: "سایر",
-    image: popular1,
-    href: "https://demo.rsstudio.net/lagom-website-builder",
-    title: "صفحه ",
+    tab: "محصولات",
+    slides: [
+      {
+        image: popular1,
+        href: "https://demo.rsstudio.net/lagom-website-builder",
+        title: "8555",
+      },
+    ],
   },
 ];
 
@@ -49,37 +44,40 @@ export default function Demos() {
           سرعت و به آسانی مطابق با نیازهای خاص خود شخصی سازی کنید.
         </p>
       </div>
-      <div className="grid gap-y-12 gap-x-8 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto max-w-[90vw]">
+      <div className="w-full mx-auto">
         <TabGroup>
-          <TabList className="">
-            {demos.map(({ tabName }) => (
+          <TabList className="flex gap-x-4 text-center lg:max-w-3xl mx-auto mb-10">
+            {demos.map(({ tab }) => (
               <Tab
-                key={tabName}
-                className="lg:text-lg text-base whitespace-nowrap cursor-pointer focus:outline-0 border-r border-zinc-200 text-center font-bold w-full text-zinc-500 hover:text-zinc-700 group p-3 hover:bg-gray-50 transition-colors
-              data-[selected]:text-blue-600 data-[selected]:border-b-2 data-[selected]:border-b-blue-600">
-                {tabName}
+                key={tab}
+                className="text-lg font-medium py-2 px-3 rounded-lg text-zinc-800 data-[selected]:text-blue-700 data-[selected]:bg-blue-100 transition-colors">
+                {tab}
               </Tab>
             ))}
           </TabList>
-          <div>
-            <TabPanels className="mt-3">
-              {demos.map((d) => (
-                <a
-                  key={d.title}
-                  href={d.href}
-                  className="group flex items-center flex-col gap-y-4">
-                  <Image
-                    className="w-full h-full ring ring-zinc-200 shadow-sm rounded-lg group-hover:-translate-y-px group-hover:shadow-2xl transition-all"
-                    src={d.image}
-                    alt={d.title}
-                  />
-                  <h2 className="font-light text-lg group-hover:text-blue-600">
-                    {d.title}
-                  </h2>
-                </a>
-              ))}
-            </TabPanels>
-          </div>
+          <TabPanels className="mt-3 mx-auto max-w-[90vw]">
+            {demos.map(({ tab, slides }) => (
+              <TabPanel key={tab}>
+                <div className="grid gap-y-12 gap-x-8 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto max-w-[90vw]">
+                  {slides.map((slide) => (
+                    <a
+                      key={slide.title}
+                      href={slide.href}
+                      className="group flex items-center flex-col gap-y-4">
+                      <Image
+                        className="w-full h-full ring ring-zinc-200 shadow-sm rounded-lg group-hover:-translate-y-px group-hover:shadow-2xl transition-all"
+                        src={slide.image}
+                        alt={slide.title}
+                      />
+                      <h2 className="font-light text-lg group-hover:text-blue-600">
+                        {slide.title}
+                      </h2>
+                    </a>
+                  ))}
+                </div>
+              </TabPanel>
+            ))}
+          </TabPanels>
         </TabGroup>
       </div>
     </section>
