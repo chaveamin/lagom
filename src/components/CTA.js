@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function CTA() {
   return (
     <section className="py-22 rounded-2xl bg-linear-to-b from-blue-600 to-blue-500 flex flex-col text-white text-center">
