@@ -11,6 +11,7 @@ import Customer from "@/components/Customer";
 import Pricing from "@/components/Pricing";
 import CTA from "@/components/CTA";
 import Bg from "@/components/Bg";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <Other />
       <Customer />
       <Pricing />
+      <FAQ />
       <CTA />
     </>
   );

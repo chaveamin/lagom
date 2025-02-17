@@ -5,6 +5,7 @@ export default function Intro() {
     <section className="py-15 lg:max-w-3xl w-full mx-auto">
       <div className="relative *:shadow-xl *:shadow-zinc-800/5 *:ring *:ring-zinc-200 *:rounded-lg">
         <motion.img
+          viewport={{ once: true }}
           transition={{ delay: "0.3", duration: "0.6" }}
           initial={{ translateY: "25px", opacity: 0 }}
           whileInView={{ translateY: "0", opacity: 1 }}
@@ -13,6 +14,7 @@ export default function Intro() {
           alt="سایت ساز لاگوم - راه حل هاستینگ بدون دردسر"
         />
         <motion.img
+          viewport={{ once: true }}
           transition={{ delay: "0.5", duration: "0.6" }}
           initial={{ translateY: "25px", opacity: 0 }}
           whileInView={{ translateY: "0", opacity: 1 }}
@@ -22,6 +24,7 @@ export default function Intro() {
           alt="سایت ساز لاگوم - راه حل هاستینگ بدون دردسر"
         />
         <motion.img
+          viewport={{ once: true }}
           transition={{ delay: "0.9", duration: "0.4" }}
           initial={{ translateY: "25px", opacity: 0 }}
           whileInView={{ translateY: "0", opacity: 1 }}
@@ -31,6 +34,7 @@ export default function Intro() {
           alt="سایت ساز لاگوم - راه حل هاستینگ بدون دردسر"
         />
         <motion.img
+          viewport={{ once: true }}
           transition={{ delay: "1", duration: "0.6" }}
           initial={{ translateY: "25px", opacity: 0 }}
           whileInView={{ translateY: "0", opacity: 1 }}
