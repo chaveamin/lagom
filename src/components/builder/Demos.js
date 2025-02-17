@@ -108,34 +108,59 @@ const demos = [
         title: "سایت ساز",
       },
       {
-        image: "/cms/cms_page-wordpress_hosting-main.png",
-        href: "https://demo.rsstudio.net/lagom-website-builder/wordpress-hosting",
-        title: "هاست وردپرس",
+        image: "/cms/cms_page-site_builder-main.png",
+        href: "https://demo.rsstudio.net/lagom-website-builder/site-builder",
+        title: "سایت ساز 2",
       },
       {
-        image: "/cms/cms_page-reseller_hosting-main.png",
-        href: "https://demo.rsstudio.net/lagom-website-builder/reseller-hosting",
-        title: "نمایندگی هاست",
+        image: "/cms/cms_page-ssl_certificates-main.png",
+        href: "https://demo.rsstudio.net/lagom-website-builder/ssl-certificates",
+        title: "گواهی SSL",
       },
       {
-        image: "/cms/cms_page-cloud_hosting-main.png",
-        href: "https://demo.rsstudio.net/lagom-website-builder/cloud-servers",
-        title: "سرور ابری",
+        image: "/cms/cms_page-website_security-main.png",
+        href: "https://demo.rsstudio.net/lagom-website-builder/website-security",
+        title: "امنیت وبسایت",
       },
       {
-        image: "/cms/cms_page-dedicated_servers-main.png",
-        href: "https://demo.rsstudio.net/lagom-website-builder/dedicated-servers",
-        title: "سرور اختصاصی",
+        image: "/cms/cms_page-seo_tools-main.png",
+        href: "https://demo.rsstudio.net/lagom-website-builder/seo-tools",
+        title: "سئو",
       },
       {
-        image: "/cms/cms_page-domain_search-main.png",
-        href: "https://demo.rsstudio.net/lagom-website-builder/domain-names",
-        title: "ثبت دامنه",
+        image: "/cms/cms_page-email_services-main.png",
+        href: "https://demo.rsstudio.net/lagom-website-builder/email-services",
+        title: "خدمات ایمیل",
       },
       {
-        image: "/cms/cms_page-domain_transfer-main.png",
-        href: "https://demo.rsstudio.net/lagom-website-builder/domain-transfer",
-        title: "انتقال دامنه",
+        image: "/cms/cms_page-360_monitoring-main.png",
+        href: "https://demo.rsstudio.net/lagom-website-builder/360-monitoring",
+        title: "مانیتورینگ وبسایت",
+      },
+    ],
+  },
+  {
+    tab: "سایر ",
+    slides: [
+      {
+        image: "/cms/cms_page-about_us-main.png",
+        href: "https://demo.rsstudio.net/lagom-website-builder/about-us",
+        title: "درباره ما",
+      },
+      {
+        image: "/cms/cms_page-contact_us-main.png",
+        href: "https://demo.rsstudio.net/lagom-website-builder/contact-us",
+        title: "ارتباط",
+      },
+      {
+        image: "/cms/cms_page-terms_of_service.png",
+        href: "https://demo.rsstudio.net/lagom-website-builder/legal/terms-of-services",
+        title: "شرایط خدمات",
+      },
+      {
+        image: "/cms/cms_page-privacy_policy.png",
+        href: "https://demo.rsstudio.net/lagom-website-builder/legal/privacy-policy",
+        title: "قوانین",
       },
     ],
   },
@@ -157,11 +182,11 @@ export default function Demos() {
       </div>
       <div className="w-full mx-auto">
         <TabGroup>
-          <TabList className="flex gap-x-4 text-center lg:max-w-3xl mx-auto mb-10">
+          <TabList className="flex gap-x-4 text-center lg:max-w-3xl overflow-auto mx-auto mb-10">
             {demos.map(({ tab }) => (
               <Tab
                 key={tab}
-                className="text-xl cursor-pointer hover:text-blue-600 font-medium py-2 px-3 rounded-lg text-zinc-800 data-[selected]:text-blue-700 data-[selected]:bg-blue-100 data-[selected]:focus:outline-0 transition-colors">
+                className="lg:text-xl text-lg whitespace-nowrap cursor-pointer hover:text-blue-600 font-medium py-2 px-3 rounded-lg text-zinc-800 data-[selected]:text-blue-700 data-[selected]:bg-blue-100 data-[selected]:focus:outline-0 transition-colors">
                 {tab}
               </Tab>
             ))}
