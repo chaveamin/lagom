@@ -37,9 +37,8 @@ const NavMenus = [
   },
   {
     name: "فرم سفارش یک مرحله ای",
-    description:
-      "قالب سفارش تک صفحه ای قدرتمند لاگوم، حاوی طرح بندی های مختلف.",
-    href: "https://designesia.ir/downloads/lagom-whmcs-theme/",
+    description: "به زودی...",
+    href: "/",
     icon: oneSteoIcon,
   },
 ];
