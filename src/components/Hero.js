@@ -16,7 +16,7 @@ function ExternalIcon() {
   );
 }
 
-export default function Hero() {
+export default function Hero({ onPreviewClick }) {
   return (
     <div className="relative pt-18 pb-24 w-full lg:max-w-3xl mx-auto">
       <div className="flex flex-col gap-y-8">
@@ -39,7 +39,8 @@ export default function Hero() {
           </a>
           <a
             className="text-blue-600 border-2 border-blue-600 hover:bg-blue-100 lg:w-fit w-full transition-colors"
-            href="">
+            href="#"
+            onClick={onPreviewClick}>
             پیشنمایش
           </a>
           <a

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Pricing() {
   return (
-    <section className="py-22">
+    <section id="pricing" className="py-22">
       <div className="w-full lg:max-w-5xl mx-auto">
         <h2 className="lg:text-5xl text-3xl leading-14 font-black text-zinc-800 mb-16">
           قیمت گذاری
@@ -33,7 +33,7 @@ export default function Pricing() {
               <span className="font-bold">6 ماه</span> پشتیبانی
             </li>
             <li>
-              <span className="font-bold">1 سال</span> آپدیت
+              <span className="font-bold">6 ماه</span> آپدیت
             </li>
             <li>
               <span className="font-bold">بدون محدودیت</span> دامنه
@@ -70,7 +70,7 @@ export default function Pricing() {
               <span className="font-bold">6 ماه</span> پشتیبانی
             </li>
             <li>
-              <span className="font-bold">1 سال</span> آپدیت
+              <span className="font-bold">6 ماه</span> آپدیت
             </li>
             <li>
               <span className="font-bold">بدون محدودیت</span> دامنه

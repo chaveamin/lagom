@@ -31,8 +31,8 @@ const NavMenus = [
   },
   {
     name: "سایت ساز",
-    description: "سایت ساز پیشرفته لاگوم، با چندین صفحه و بخش از پیش تعریف شده",
-    href: "/website-builder",
+    description: "به زودی...",
+    href: "/",
     icon: websiteBuilderIcon,
   },
   {

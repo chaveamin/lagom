@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Hero from "@/components/Hero";
 import ClientDashboard from "@/components/ClientDashboard";
 import Styles from "@/components/Styles";
@@ -12,12 +15,14 @@ import Pricing from "@/components/Pricing";
 import CTA from "@/components/CTA";
 import Bg from "@/components/Bg";
 import FAQ from "@/components/FAQ";
+import LiveDemos from "@/components/LiveDemos";
 
 export default function Home() {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
     <>
       <Bg />
-      <Hero />
+      <Hero onPreviewClick={() => setIsSidebarOpen(true)} />
       <ClientDashboard />
       <Styles />
       <StyleManager />
@@ -30,6 +35,15 @@ export default function Home() {
       <Pricing />
       <FAQ />
       <CTA />
+      <LiveDemos
+        isOpen={isSidebarOpen}
+        onClose={() => setIsSidebarOpen(false)}
+      />
+      <div
+        onClick={() => setIsSidebarOpen(false)}
+        className={`absolute z-20 inset-0 h-screen bg-black opacity-20 ${
+          isSidebarOpen ? "block" : "hidden"
+        }`}></div>
     </>
   );
 }

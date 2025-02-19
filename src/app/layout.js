@@ -45,7 +45,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fa" dir="rtl">
+    <html className="scroll-smooth" lang="fa" dir="rtl">
       <body
         className={`${dana.variable} font-dana antialiased px-8 overflow-x-hidden`}>
         <Topbar></Topbar>

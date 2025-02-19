@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
-import uk from "@/images/projects-webhostinguk.png";
 import digitalvps from "@/images/digitalvps.png";
 import fannegarhost from "@/images/fannegarhost.png";
 import anicloud from "@/images/anicloud.png";
@@ -15,28 +14,24 @@ import Image from "next/image";
 const customers = [
   {
     href: "https://client.digitalvps.ir/",
-    image: uk,
     name: "دیجیتال وی پی اس",
     logo: digitalvps,
     address: "digitalvps.ir",
   },
   {
     href: "https://panel.fannegar-host.com/",
-    image: uk,
     name: "فن نگار هاست",
     logo: fannegarhost,
     address: "panel.fannegar-host.com",
   },
   {
     href: "https://my.anicloud.ir/",
-    image: uk,
     name: "انی کلاود",
     logo: anicloud,
     address: "my.anicloud.ir",
   },
   {
     href: "https://client.serversetup.co/",
-    image: uk,
     name: "سرور ستاپ",
     logo: serversetup,
     address: "client.serversetup.co",
