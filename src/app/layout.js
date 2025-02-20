@@ -1,8 +1,8 @@
 import "./globals.css";
 import localFont from "next/font/local";
 import Topbar from "@/components/Topbar";
-import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import ClientOnlyNav from "@/components/ClientOnlyNav";
 
 const dana = localFont({ src: "./DanaVF.woff2", variable: "--font-dana" });
 
@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${dana.variable} font-dana antialiased px-8 overflow-x-hidden`}>
         <Topbar></Topbar>
-        <Nav></Nav>
+        <ClientOnlyNav />
         {children}
         <Footer></Footer>
       </body>

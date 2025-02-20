@@ -1,12 +1,9 @@
-"use client";
-
 import lagom from "@/images/lagom.svg";
 import lagomsm from "@/images/lagomsm.svg";
 import clientThemeIcon from "@/images/client-theme.svg";
 import websiteBuilderIcon from "@/images/websitebuilder.svg";
 import oneSteoIcon from "@/images/onestep.svg";
 import Image from "next/image";
-import { useState, useEffect } from "react";
 import clsx from "clsx";
 import {
   Dialog,
@@ -32,7 +29,7 @@ const NavMenus = [
   {
     name: "سایت ساز",
     description: "به زودی...",
-    href: "/",
+    href: "/website-builder",
     icon: websiteBuilderIcon,
   },
   {
@@ -95,22 +92,7 @@ function ChevronDownIcon() {
   );
 }
 
-function Nav() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
+function Nav({ isScrolled, mobileMenuOpen, setMobileMenuOpen }) {
   return (
     <header
       className={clsx(
