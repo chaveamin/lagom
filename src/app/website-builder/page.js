@@ -1,4 +1,5 @@
 import Demos from "@/components/builder/Demos";
+import Features from "@/components/builder/Features";
 import Hero from "@/components/builder/Hero";
 import Intro from "@/components/builder/Intro";
 import PageManage from "@/components/builder/PageManage";
@@ -29,6 +30,7 @@ export default function page() {
       <Sitemap />
       <Styles />
       <SectionType />
+      <Features />
     </>
   );
 }

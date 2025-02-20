@@ -1,67 +1,67 @@
 const sections = [
   {
     id: "banner-default",
-    title: "طرح‌ بندی مبتنی بر وضعیت کاربر",
+    title: "بنر پیشفرض",
   },
   {
     id: "banner-domain",
-    title: "مدیریت اولیه سئو",
+    title: "بنر دامنه",
   },
   {
     id: "banner-form",
-    title: "طرح بندی سفارشی برای صفحات",
+    title: "بنر فرم",
   },
   {
     id: "cta",
-    title: "منوی ثابت",
+    title: "CTA",
   },
   {
     id: "domain-search",
-    title: "بخش های چند استایلی",
+    title: "جستجوی دامنه",
   },
   {
     id: "faq",
-    title: "قالب صفحات",
+    title: "سوالات متداول",
   },
   {
     id: "featured-tld",
-    title: "فونت های مختلف",
+    title: "دامنه های ویژه",
   },
   {
     id: "features",
-    title: "ساید بار ثابت",
+    title: "امکانات",
   },
   {
     id: "features-sides",
-    title: "پنهان کردن نوار کناری",
+    title: "امکانات با نوار کناری",
   },
   {
     id: "graphics",
-    title: "پنهان کردن نوار کناری",
+    title: "تصاویر",
   },
   {
     id: "key-features",
-    title: "پنهان کردن نوار کناری",
+    title: "ویژگی های کلیدی",
   },
   {
     id: "legal",
-    title: "پنهان کردن نوار کناری",
+    title: "قوانین",
   },
   {
     id: "product-groups",
-    title: "پنهان کردن نوار کناری",
+    title: "گروه محصولات",
   },
   {
     id: "products",
-    title: "پنهان کردن نوار کناری",
+    title: "محصولات",
   },
   {
     id: "testimonials",
-    title: "پنهان کردن نوار کناری",
+    title: "نظر مشتریان",
   },
   {
     id: "tld-table",
-    title: "پنهان کردن نوار کناری",
+    title: "جدول دامنه ها",
   },
 ];
 
