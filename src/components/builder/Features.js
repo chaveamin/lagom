@@ -35,7 +35,7 @@ export default function Features() {
   return (
     <section className="py-22">
       <div className="w-full lg:max-w-5xl mx-auto">
-        <h2 className="lg:text-5xl text-3xl leading-14 font-black text-zinc-800">
+        <h2 className="lg:text-5xl mb-8 text-3xl leading-14 font-black text-zinc-800">
           امکانات ویژه
         </h2>
         <p className="lg:text-2xl text-xl lg:leading-10 text-justify leading-8 font-light text-zinc-600">

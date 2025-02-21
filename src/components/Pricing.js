@@ -33,7 +33,7 @@ export default function Pricing() {
               <span className="font-bold">6 ماه</span> پشتیبانی
             </li>
             <li>
-              <span className="font-bold">6 ماه</span> آپدیت
+              <span className="font-bold">1 سال</span> آپدیت
             </li>
             <li>
               <span className="font-bold">بدون محدودیت</span> دامنه
@@ -70,7 +70,7 @@ export default function Pricing() {
               <span className="font-bold">6 ماه</span> پشتیبانی
             </li>
             <li>
-              <span className="font-bold">6 ماه</span> آپدیت
+              <span className="font-bold">1 سال</span> آپدیت
             </li>
             <li>
               <span className="font-bold">بدون محدودیت</span> دامنه

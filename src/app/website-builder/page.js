@@ -1,8 +1,10 @@
 import Demos from "@/components/builder/Demos";
 import Features from "@/components/builder/Features";
+import Graphics from "@/components/builder/Graphics";
 import Hero from "@/components/builder/Hero";
 import Intro from "@/components/builder/Intro";
 import PageManage from "@/components/builder/PageManage";
+import Pricing from "@/components/builder/Pricing";
 import SectionType from "@/components/builder/SectionType";
 import Sitemap from "@/components/builder/Sitemap";
 import Styles from "@/components/builder/Styles";
@@ -31,6 +33,8 @@ export default function page() {
       <Styles />
       <SectionType />
       <Features />
+      <Graphics />
+      <Pricing />
     </>
   );
 }

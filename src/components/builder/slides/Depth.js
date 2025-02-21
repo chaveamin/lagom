@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
-const colors = ["red", "green", "blue", "purple", "orange"];
+const colors = ["red", "green", "default", "purple", "orange"];
 
 export default function Depth() {
   const pagination = {

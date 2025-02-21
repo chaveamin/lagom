@@ -73,3 +73,6 @@
   background-size: 20px, 20px;
   mix-blend-mode: overlay;
 }
+.graphics .swiper-wrapper {
+  transition-timing-function: linear;
+}
