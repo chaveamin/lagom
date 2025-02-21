@@ -1,3 +1,4 @@
+import CTA from "@/components/builder/CTA";
 import Demos from "@/components/builder/Demos";
 import FAQ from "@/components/builder/FAQ";
 import Features from "@/components/builder/Features";
@@ -37,6 +38,7 @@ export default function page() {
       <Graphics />
       <Pricing />
       <FAQ />
+      <CTA />
     </>
   );
 }
