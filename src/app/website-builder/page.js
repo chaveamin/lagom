@@ -1,4 +1,5 @@
 import Demos from "@/components/builder/Demos";
+import FAQ from "@/components/builder/FAQ";
 import Features from "@/components/builder/Features";
 import Graphics from "@/components/builder/Graphics";
 import Hero from "@/components/builder/Hero";
@@ -35,6 +36,7 @@ export default function page() {
       <Features />
       <Graphics />
       <Pricing />
+      <FAQ />
     </>
   );
 }
