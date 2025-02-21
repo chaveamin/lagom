@@ -1,5 +1,13 @@
+import CTA from "@/components/CTA";
+import Hero from "@/components/ext/Hero";
+
 function extensions() {
-  return <div>extensions</div>;
+  return (
+    <>
+      <Hero />
+      <CTA />
+    </>
+  );
 }
 
 export default extensions;

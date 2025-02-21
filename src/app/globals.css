@@ -68,11 +68,12 @@
 .background-gradient-pattern {
   position: absolute;
   inset: 0px;
-  background-image: url(/guilloche.svg);
-  background-position: right top;
-  background-size: 20px, 20px;
+  background: url("/guilloche.svg") right top/20px, 20px;
   mix-blend-mode: overlay;
 }
 .graphics .swiper-wrapper {
   transition-timing-function: linear;
+}
+.ext-hero {
+  background: url("../images/ext-grid.svg") center center/contain;
 }

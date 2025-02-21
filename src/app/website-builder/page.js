@@ -1,4 +1,4 @@
-import CTA from "@/components/builder/CTA";
+import CTA from "@/components/CTA";
 import Demos from "@/components/builder/Demos";
 import FAQ from "@/components/builder/FAQ";
 import Features from "@/components/builder/Features";

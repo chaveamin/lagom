@@ -28,7 +28,8 @@ const NavMenus = [
   },
   {
     name: "سایت ساز",
-    description: "به زودی...",
+    description:
+      "سایت ساز WHMCS پیشرفته، با چندین صفحه و بخش از پیش تعریف شده.",
     href: "/website-builder",
     icon: websiteBuilderIcon,
   },
