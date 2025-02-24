@@ -12,7 +12,15 @@ export const metadata = {
 };
 
 import Hero from "@/components/promoton-manager/Hero";
+import Intro from "@/components/promoton-manager/Intro";
+import Steps from "@/components/promoton-manager/Steps";
 
 export default function page() {
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+      <Intro />
+      <Steps />
+    </>
+  );
 }
