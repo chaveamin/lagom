@@ -70,7 +70,7 @@ export default function SectionType() {
     <section className="py-22">
       <div className="w-full lg:max-w-5xl mx-auto">
         <h2 className="lg:text-5xl mb-8 text-3xl leading-14 font-black text-zinc-800">
-          انواع بخش های مختلف
+          بخش های مختلف
         </h2>
         <p className="lg:text-2xl text-xl lg:leading-10 text-justify leading-8 font-light text-zinc-600">
           در سایت ساز لاگوم، مجموعه‌ای غنی از انواع بخش‌های از پیش طراحی‌شده را

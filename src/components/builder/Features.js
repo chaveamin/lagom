@@ -39,8 +39,8 @@ export default function Features() {
           امکانات ویژه
         </h2>
         <p className="lg:text-2xl text-xl lg:leading-10 text-justify leading-8 font-light text-zinc-600">
-          مجموعه قابل عظیمی از قابلیت ها را در سایت ساز لاگوم کشف کنید که حضور
-          آنلاین شما را تقویت می کند.
+          مجموعه عظیمی از قابلیت ها را در سایت ساز لاگوم کشف کنید که حضور آنلاین
+          شما را تقویت می کند.
         </p>
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-12 relative w-full lg:mt-20 mt-10 lg:max-w-5xl mx-auto">

@@ -5,37 +5,38 @@ import CN from "@/images/client-notifications.svg";
 import CC from "@/images/custom-code.svg";
 import SH from "@/images/support-hours.svg";
 import Image from "next/image";
+import Link from "next/link";
 
 const extensions = [
   {
     icon: PM,
     title: "بنر تبلیغات",
     price: "1,880,000",
-    href: "/promotion-manager",
+    href: "/extensions/promotion-manager",
   },
   {
     icon: ET,
     title: "قالب ایمیل",
     price: "900,000",
-    href: "/lagom-email-template",
+    href: "/extensions/lagom-email-template",
   },
   {
     icon: CN,
     title: "اعلان مشتری",
     price: "1,400,000",
-    href: "#",
+    href: "/extensions/client-notifications/",
   },
   {
     icon: CC,
     title: "کد سفارشی",
     price: "800,000",
-    href: "#",
+    href: "/extensions/custom-code/",
   },
   {
     icon: SH,
     title: "ساعا کاری",
     price: "1,000,000",
-    href: "#",
+    href: "/extensions/support-hours/",
   },
 ];
 
@@ -52,7 +53,7 @@ export default function Hero() {
         whileInView={{ translateY: "0", opacity: 1 }}
         transition={{ duration: "0.6" }}>
         {extensions.map((e) => (
-          <a
+          <Link
             key={e.title}
             href={e.href}
             className="max-w-80 w-full bg-white py-12 flex items-center flex-col rounded-lg ring ring-zinc-200 shadow-lg shadow-zinc-800/8 hover:-translate-y-2 duration-300 transition-transform">
@@ -64,7 +65,7 @@ export default function Hero() {
             <button className="font-semibold cursor-pointer text-lg text-zinc-600 mt-8 hover:text-blue-600 transition-colors">
               اطلاعات بیشتر
             </button>
-          </a>
+          </Link>
         ))}
       </motion.div>
     </section>

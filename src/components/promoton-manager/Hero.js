@@ -16,32 +16,31 @@ function ExternalIcon() {
   );
 }
 
-export default function Hero({ onPreviewClick }) {
+export default function Hero() {
   return (
     <section className="relative pt-18 pb-24 w-full lg:max-w-3xl mx-auto">
       <div className="flex flex-col gap-y-8">
-        <h1 className="text-lg text-blue-600 font-bold">
-          قالب ناحیه کاربری WHMCS لاگوم
+        <h1 className="text-lg text-blue-600 font-semibold">
+          افزونه بنر تبلیغات برای قالب ناحیه کاربری WHMCS لاگوم
         </h1>
         <h2 className="font-light text-4xl lg:text-6xl text-zinc-800 leading-12 lg:leading-22">
-          <span className="font-extrabold">قالب WHMCS</span> ساده، شهودی و
-          کاملاً ریسپانسیو
+          ساخت <span className="font-extrabold">بنرهای تبلیغاتی</span> زیبا در
+          WHMCS
         </h2>
         <p className="font-light text-xl lg:text-2xl text-zinc-600 leading-8 lg:leading-10">
-          قالب و فرم سفارش مجهز به طرح‌ بندی‌های متعدد، چندین سبک، مدیریت منو و
-          شخصی سازی رنگ های قالب.
+          با ایجاد بنرهای تبلیغاتی سفارشی در قالب لاگوم، فروش خود را افزایش دهید
+          مکان بنر را انتخاب کنید و شروع به کسب درآمد کنید!
         </p>
         <div className="flex items-center flex-col lg:flex-row gap-y-6 lg:gap-x-6 *:text-center *:rounded-lg *:px-7 *:py-3 *:text-xl *:font-medium">
           <a
             className="bg-blue-600 text-white hover:bg-blue-700 lg:w-fit w-full transition-colors"
             href="#pricing">
-            قیمت گذاری
+            شروع از 1,880,000 تومانءءء/سالانه
           </a>
           <a
             className="text-blue-600 border-2 border-blue-600 hover:bg-blue-100 lg:w-fit w-full transition-colors"
-            href="#"
-            onClick={onPreviewClick}>
-            پیشنمایش
+            href="#info">
+            اطلاعات بیشتر
           </a>
           <a
             className="text-xl text-center lg:mr-auto text-blue-600 font-bold"
