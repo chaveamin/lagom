@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Topbar from "@/components/Topbar";
 import Footer from "@/components/Footer";
 import ClientOnlyNav from "@/components/ClientOnlyNav";
+import ProgressBar from "@/components/ProgressBar";
 
 const dana = localFont({ src: "./DanaVF.woff2", variable: "--font-dana" });
 
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
     <html className="scroll-smooth" lang="fa" dir="rtl">
       <body
         className={`${dana.variable} font-dana antialiased px-8 overflow-x-hidden`}>
+        <ProgressBar></ProgressBar>
         <Topbar></Topbar>
         <ClientOnlyNav />
         {children}
