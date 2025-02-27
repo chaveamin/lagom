@@ -11,8 +11,11 @@ export const metadata = {
   },
 };
 
+import CTA from "@/components/CTA";
+import FAQ from "@/components/promoton-manager/FAQ";
 import Hero from "@/components/promoton-manager/Hero";
 import Intro from "@/components/promoton-manager/Intro";
+import Pricing from "@/components/promoton-manager/Pricing";
 import Steps from "@/components/promoton-manager/Steps";
 
 export default function page() {
@@ -21,6 +24,9 @@ export default function page() {
       <Hero />
       <Intro />
       <Steps />
+      <Pricing />
+      <FAQ />
+      <CTA />
     </>
   );
 }
