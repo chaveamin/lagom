@@ -12,11 +12,11 @@ export const metadata = {
 };
 
 import CTA from "@/components/CTA";
-import FAQ from "@/components/promoton-manager/FAQ";
-import Hero from "@/components/promoton-manager/Hero";
-import Intro from "@/components/promoton-manager/Intro";
-import Pricing from "@/components/promoton-manager/Pricing";
-import Steps from "@/components/promoton-manager/Steps";
+import FAQ from "@/components/ext/promoton-manager/FAQ";
+import Hero from "@/components/ext/promoton-manager/Hero";
+import Intro from "@/components/ext/promoton-manager/Intro";
+import Pricing from "@/components/ext/promoton-manager/Pricing";
+import Steps from "@/components/ext/promoton-manager/Steps";
 
 export default function page() {
   return (

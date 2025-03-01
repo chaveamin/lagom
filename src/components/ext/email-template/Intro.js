@@ -59,7 +59,7 @@ export default function Intro() {
         <p className="font-light text-xl lg:text-2xl text-zinc-600 leading-8 lg:leading-10">
           افزونه بنر تبلیغات قالب لاگوم به شما امکان ایجاد بنرهای تبلیغاتی خود
           را به جای محصولات پیش فرض میدهد. به لطف این افزونه، شما همچنین
-          میتوانید بنرهای خود را در دموی "مدرن" قالب ایجاد کنید
+          میتوانید بنرهای خود را در دموی &quot;مدرن&quot; قالب ایجاد کنید
         </p>
         <div className="flex lg:items-center items-start flex-col lg:flex-row gap-y-6 lg:gap-x-6">
           <a
