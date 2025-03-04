@@ -1,5 +1,7 @@
+import Customize from "@/components/ext/email-template/Customize";
 import Hero from "@/components/ext/email-template/Hero";
 import Intro from "@/components/ext/email-template/Intro";
+import Slider from "@/components/ext/email-template/Slider";
 
 export const metadata = {
   title: "افزونه قالب ایمیل برای قالب ناحیه کاربری لاگوم",
@@ -19,6 +21,8 @@ export default function page() {
     <>
       <Hero />
       <Intro />
+      <Slider />
+      <Customize />
     </>
   );
 }

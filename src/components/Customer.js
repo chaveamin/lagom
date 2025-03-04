@@ -23,12 +23,6 @@ const customers = [
     address: "panel.fannegar-host.com",
   },
   {
-    href: "https://my.anicloud.ir/",
-    name: "انی کلاود",
-    logo: anicloud,
-    address: "my.anicloud.ir",
-  },
-  {
     href: "https://client.serversetup.co/",
     name: "سرور ستاپ",
     logo: serversetup,
