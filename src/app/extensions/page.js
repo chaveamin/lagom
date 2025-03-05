@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "افزونه ها",
+  title: 'افزونه ها',
   robots: {
     index: true,
     follow: true,
@@ -9,10 +9,10 @@ export const metadata = {
       follow: true,
     },
   },
-};
+}
 
-import CTA from "@/components/CTA";
-import Hero from "@/components/ext/Hero";
+import CTA from '@/components/CTA'
+import Hero from '@/components/ext/Hero'
 
 function extensions() {
   return (
@@ -20,7 +20,7 @@ function extensions() {
       <Hero />
       <CTA />
     </>
-  );
+  )
 }
 
-export default extensions;
+export default extensions

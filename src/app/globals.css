@@ -1,11 +1,11 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   --shadow-3xl: 0 30px 30px -1px rgba(30, 45, 70, 0.05);
   --shadow-4xl: 0 16px 32px rgba(0, 0, 0, 0.02), 0 8px 72px rgba(0, 0, 0, 0.08);
   --container-8xl: 1384px;
-  --font-dana: "dana", tahoma;
-  --font-dana--font-feature-settings: "ss02";
+  --font-dana: 'dana', tahoma;
+  --font-dana--font-feature-settings: 'ss02';
   --animate-fadeInUp: fadeInUp 0.3s;
   @keyframes fadeInUp {
     0% {
@@ -41,10 +41,10 @@
   @apply ring-blue-500 transition-all;
 }
 .ext-slider .swiper-pagination-bullets .swiper-pagination-bullet {
-  @apply bg-transparent rounded-md border-2 border-zinc-600 size-3 transition-all;
+  @apply size-3 rounded-md border-2 border-zinc-600 bg-transparent transition-all;
 }
 .ext-slider .swiper-pagination-bullets .swiper-pagination-bullet-active {
-  @apply bg-blue-600 w-6 h-3 border-none;
+  @apply h-3 w-6 border-none bg-blue-600;
 }
 .background-gradient {
   position: absolute;
@@ -68,12 +68,14 @@
 .background-gradient-pattern {
   position: absolute;
   inset: 0px;
-  background: url("/guilloche.svg") right top/20px, 20px;
+  background:
+    url('/guilloche.svg') right top/20px,
+    20px;
   mix-blend-mode: overlay;
 }
 .graphics .swiper-wrapper {
   transition-timing-function: linear;
 }
 .ext-hero {
-  background: url("../images/ext-grid.svg") center center/contain;
+  background: url('../images/ext-grid.svg') center center/contain;
 }

@@ -1,18 +1,18 @@
-import CTA from "@/components/CTA";
-import Demos from "@/components/builder/Demos";
-import FAQ from "@/components/builder/FAQ";
-import Features from "@/components/builder/Features";
-import Graphics from "@/components/builder/Graphics";
-import Hero from "@/components/builder/Hero";
-import Intro from "@/components/builder/Intro";
-import PageManage from "@/components/builder/PageManage";
-import Pricing from "@/components/builder/Pricing";
-import SectionType from "@/components/builder/SectionType";
-import Sitemap from "@/components/builder/Sitemap";
-import Styles from "@/components/builder/Styles";
+import CTA from '@/components/CTA'
+import Demos from '@/components/builder/Demos'
+import FAQ from '@/components/builder/FAQ'
+import Features from '@/components/builder/Features'
+import Graphics from '@/components/builder/Graphics'
+import Hero from '@/components/builder/Hero'
+import Intro from '@/components/builder/Intro'
+import PageManage from '@/components/builder/PageManage'
+import Pricing from '@/components/builder/Pricing'
+import SectionType from '@/components/builder/SectionType'
+import Sitemap from '@/components/builder/Sitemap'
+import Styles from '@/components/builder/Styles'
 
 export const metadata = {
-  title: "سایت ساز لاگوم",
+  title: 'سایت ساز لاگوم',
   robots: {
     index: true,
     follow: true,
@@ -22,7 +22,7 @@ export const metadata = {
       follow: true,
     },
   },
-};
+}
 
 export default function page() {
   return (
@@ -40,5 +40,5 @@ export default function page() {
       <FAQ />
       <CTA />
     </>
-  );
+  )
 }

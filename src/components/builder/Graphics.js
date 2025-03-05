@@ -1,26 +1,24 @@
-"use client";
+'use client'
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
-import "swiper/css";
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay } from 'swiper/modules'
+import 'swiper/css'
 
 export default function Graphics() {
   return (
-    <section
-      className="w-full pt-22 mx-auto relative overflow-hidden graphics
-    after:z-10 after:content-[''] after:w-full after:h-64 after:absolute after:bottom-0 after:bg-gradient-to-t after:from-zinc-100">
-      <div className="w-full lg:max-w-5xl mx-auto mb-22">
-        <h2 className="lg:text-5xl mb-8 text-3xl leading-14 font-black text-zinc-800">
+    <section className="graphics relative mx-auto w-full overflow-hidden pt-22 after:absolute after:bottom-0 after:z-10 after:h-64 after:w-full after:bg-gradient-to-t after:from-zinc-100 after:content-['']">
+      <div className="mx-auto mb-22 w-full lg:max-w-5xl">
+        <h2 className="mb-8 text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           آیکون های اختصاصی
         </h2>
-        <p className="lg:text-2xl text-xl lg:leading-10 text-justify leading-8 font-light text-zinc-600">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
           طیف گسترده ای از بیش از 400 آیکن و تصویر اختصاصی را کاوش کنید، که به
           طور ویژه طراحی شده اند تا به شما کمک کنند به راحتی وب سایت هاستینگ
           ایده آل خود را با سبک و سادگی ایجاد کنید.
         </p>
       </div>
       <Swiper
-        className="w-[4000px] !m-0 icons"
+        className="icons !m-0 w-[4000px]"
         slidesPerView={1}
         loop={true}
         autoplay={{
@@ -28,7 +26,8 @@ export default function Graphics() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
-        speed={80000}>
+        speed={80000}
+      >
         <SwiperSlide>
           <img src="/cms/cms-icons-presentation.png" />
         </SwiperSlide>
@@ -37,5 +36,5 @@ export default function Graphics() {
         </SwiperSlide>
       </Swiper>
     </section>
-  );
+  )
 }

@@ -1,34 +1,35 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
-import * as motion from "motion/react-client";
-import Image from "next/image";
-import "swiper/css";
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay } from 'swiper/modules'
+import * as motion from 'motion/react-client'
+import Image from 'next/image'
+import 'swiper/css'
 
 const layouts = [
-  "condensed-banner",
-  "left-nav-wide",
-  "left-nav",
-  "default",
-  "condensed",
-];
+  'condensed-banner',
+  'left-nav-wide',
+  'left-nav',
+  'default',
+  'condensed',
+]
 
 export default function DifferentLayout() {
   return (
-    <section className="py-22 relative">
-      <div className="w-full lg:max-w-5xl mx-auto flex flex-col lg:gap-y-10 gap-y-4">
-        <h2 className="lg:text-5xl text-3xl leading-14 font-black text-zinc-800">
+    <section className="relative py-22">
+      <div className="mx-auto flex w-full flex-col gap-y-4 lg:max-w-5xl lg:gap-y-10">
+        <h2 className="text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           طرح بندی های مختلف
         </h2>
-        <p className="lg:text-2xl text-xl lg:leading-10 text-justify leading-8 font-light text-zinc-600">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
           از 5 طرح بندی برای منوی اصلی و 2 طرح بندی مختلف برای فوتر استفاده
           کنید.
         </p>
       </div>
       <motion.div
         viewport={{ once: true }}
-        transition={{ delay: "0.6", duration: "0.7" }}
-        initial={{ translateY: "25px", opacity: 0 }}
-        whileInView={{ translateY: "0", opacity: 1 }}>
+        transition={{ delay: '0.6', duration: '0.7' }}
+        initial={{ translateY: '25px', opacity: 0 }}
+        whileInView={{ translateY: '0', opacity: 1 }}
+      >
         <Swiper
           autoplay={{
             delay: 3000,
@@ -37,21 +38,23 @@ export default function DifferentLayout() {
           loop={true}
           spaceBetween={30}
           slidesPerView={1}
-          modules={[Autoplay]}>
+          modules={[Autoplay]}
+        >
           {layouts.map((layout) => (
             <SwiperSlide className="py-12" key={layout}>
               <a
                 target="_blank"
-                href={`https://demo.rsstudio.net/lagom/index.php?rsstyle=modern&rsmenulayout=${layout}`}>
+                href={`https://demo.rsstudio.net/lagom/index.php?rsstyle=modern&rsmenulayout=${layout}`}
+              >
                 <Image
-                  className="ring-1 w-3/4 mx-auto shadow-xl lg:shadow-3xl shadow-zinc-800/5 ring-zinc-900/8 rounded-xl"
+                  className="lg:shadow-3xl mx-auto w-3/4 rounded-xl ring-1 shadow-xl shadow-zinc-800/5 ring-zinc-900/8"
                   width={1700}
                   height={1200}
                   src={`/layout-${layout}.png`}
                   alt={layout}
                 />
               </a>
-              <p className="text-center text-xl font-light lg:mt-10 mt-4 capitalize">
+              <p className="mt-4 text-center text-xl font-light capitalize lg:mt-10">
                 {layout}
               </p>
             </SwiperSlide>
@@ -59,5 +62,5 @@ export default function DifferentLayout() {
         </Swiper>
       </motion.div>
     </section>
-  );
+  )
 }
