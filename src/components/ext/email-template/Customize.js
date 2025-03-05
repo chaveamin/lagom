@@ -5,37 +5,37 @@ const customization = [
     id: '1',
     title: 'سبک های مختلف',
     desc: 'از بین سه سبک مختلف از قالب ایمیل، که هر کدام برای تقویت ارتباطات شما و مطابقت با زیبایی سایت شما طراحی شده اند، انتخاب کنید.',
-    href: 'https://lagom.rsstudio.net/docs/extensions/email-template/configuration/#styles',
+    href: '#',
   },
   {
     id: '2',
     title: 'تغییر آسان متن',
     desc: 'به راحتی متن نمایش داده شده در قالب های ایمیل را با استفاده از افزونه لاگوم سفارشی کنید، بدون نیاز به هیچ گونه دانش برنامه نویسی.',
-    href: 'https://lagom.rsstudio.net/docs/extensions/email-template/configuration/#styles',
+    href: '#',
   },
   {
     id: '3',
     title: 'تنظیم لینک های اجتماعی',
     desc: 'لینک رسانه های اجتماعی را برای نمایش در قالب انتخاب کنید و به راحتی با استفاده از افزونه لاگوم ادرس ها را به پروفایل رسانه های اجتماعی خود اختصاص دهید.',
-    href: 'https://lagom.rsstudio.net/docs/extensions/email-template/configuration/#styles',
+    href: '#',
   },
   {
     id: '4',
     title: 'شخصی سازی لینک های فوتر',
     desc: 'لینک های ضروری را پیکربندی کنید تا از طریق افزونه لاگوم در فوتر نشان داده شوند. این کار بدون نیاز به کدنویسی قابل انجام است.',
-    href: 'https://lagom.rsstudio.net/docs/extensions/email-template/configuration/#styles',
+    href: '#',
   },
   {
     id: '5',
     title: 'متن کپی رایت',
     desc: 'محتوای خود را ذخیره کنید و متن کپی رایت مورد نیاز را به صورت خودکار به همه ایمیل های ارسالی اضافه کنید.',
-    href: 'https://lagom.rsstudio.net/docs/extensions/email-template/configuration/#styles',
+    href: '#',
   },
   {
     id: '6',
     title: 'مدیریت لوگو',
     desc: 'با استفاده از افزونه لاگوم تنها با چند کلیک، به راحتی لوگوی خود را به قالب های ایمیل اختصاص دهید.',
-    href: 'https://lagom.rsstudio.net/docs/extensions/email-template/configuration/#styles',
+    href: '#',
   },
 ]
 

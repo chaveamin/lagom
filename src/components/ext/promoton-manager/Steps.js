@@ -3,25 +3,25 @@ const steps = [
     num: '1',
     title: 'مکان بنر تبلیغات را انتخاب کنید',
     desc: 'محل بنر تبلیغ را پیکربندی کنید، بین صفحات از پیش تعریف شده، از جمله دموهای قالب، انتخاب کنید.',
-    href: 'https://lagom.rsstudio.net/docs/extensions/promotion-manager/configuration/#choose-placement',
+    href: '#',
   },
   {
     num: '2',
     title: 'بازه زمانی بنر تبلیغ را انتخاب کنید',
     desc: 'فوراً آن را منتشر کنید یا تاریخی برای منتشر آن در آینده انتخاب کنید . تاریخ انقضای بنر را تنظیم کنید تا تبلیغات پس از انقضا به طور خودکار پنهان شود.',
-    href: 'https://lagom.rsstudio.net/docs/extensions/promotion-manager/configuration/#choose-placement',
+    href: '#',
   },
   {
     num: '3',
     title: 'تصاویر و محتوای بنر را انتخاب کنید',
     desc: 'عنوان تبلیغ را بنویسید، لینک دکمه را تنظیم کنید، گرادینت بنر را با استفاده از انتخابگر رنگ انتخاب کنید و تصویر خود را آپلود کنید.',
-    href: 'https://lagom.rsstudio.net/docs/extensions/promotion-manager/configuration/#choose-placement',
+    href: '#',
   },
   {
     num: '4',
     title: 'فروش خود را افزایش دهید!',
     desc: 'به لطف افزونه، شما میتوانید مشتریان خود را در مورد تبلیغات فعلی خود مطلع کنید، یا لیست محصولات خود را به شیوه ای جذاب نمایش دهید.',
-    href: 'https://lagom.rsstudio.net/docs/extensions/promotion-manager/configuration/#choose-placement',
+    href: '#',
   },
 ]
 

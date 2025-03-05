@@ -1,3 +1,4 @@
+import Features from '@/components/ext/client-notif/Features'
 import Hero from '@/components/ext/client-notif/Hero'
 import Slider from '@/components/ext/client-notif/Slider'
 
@@ -19,6 +20,7 @@ export default function page() {
     <>
       <Hero />
       <Slider />
+      <Features />
     </>
   )
 }
