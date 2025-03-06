@@ -21,7 +21,7 @@ export default function Sitemap() {
           initial={{ translateY: '25px', opacity: 0 }}
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.3', duration: '0.5' }}
-          className="shadow-3xl rounded-lg ring-2 ring-blue-500/50"
+          className="shadow-3xl rounded-lg ring-2 shadow-blue-800/5 ring-blue-500/7"
           src="/cms/cms-website_sitemap-main.webp"
           alt="مدیریت صفحات سایت ساز"
         />
@@ -31,7 +31,7 @@ export default function Sitemap() {
           initial={{ translateY: '25px', opacity: 0 }}
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.5', duration: '0.5' }}
-          className="shadow-3xl hidden rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-50 lg:-left-30 lg:block"
+          className="shadow-3xl hidden rounded-lg ring-2 shadow-blue-800/5 ring-blue-500/7 lg:absolute lg:top-50 lg:-left-30 lg:block"
           src="/cms/cms-website_sitemap-right-2.webp"
           alt="مدیریت صفحات سایت ساز"
         />
@@ -51,7 +51,7 @@ export default function Sitemap() {
           initial={{ translateY: '25px', opacity: 0 }}
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.6', duration: '0.5' }}
-          className="shadow-3xl hidden rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-70 lg:-right-30 lg:block"
+          className="shadow-3xl hidden rounded-lg ring-2 shadow-blue-800/5 ring-blue-500/7 lg:absolute lg:top-70 lg:-right-30 lg:block"
           src="/cms/cms-website_sitemap-left-2.webp"
           alt="مدیریت صفحات سایت ساز"
         />

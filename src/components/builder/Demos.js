@@ -182,7 +182,7 @@ export default function Demos() {
       </div>
       <div className="mx-auto w-full">
         <TabGroup>
-          <TabList className="mx-auto mb-10 flex gap-x-4 overflow-auto text-center lg:max-w-3xl">
+          <TabList className="mx-auto mb-10 flex justify-center gap-x-4 overflow-auto text-center lg:max-w-3xl">
             {demos.map(({ tab }) => (
               <Tab
                 key={tab}

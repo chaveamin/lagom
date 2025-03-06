@@ -1,5 +1,6 @@
 import Features from '@/components/ext/client-notif/Features'
 import Hero from '@/components/ext/client-notif/Hero'
+import Pricing from '@/components/ext/client-notif/Pricing'
 import Slider from '@/components/ext/client-notif/Slider'
 
 export const metadata = {
@@ -21,6 +22,7 @@ export default function page() {
       <Hero />
       <Slider />
       <Features />
+      <Pricing />
     </>
   )
 }

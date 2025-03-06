@@ -1,57 +1,48 @@
-import f1 from '@/images/small_feature-layout.webp'
-import f2 from '@/images/small_feature-seo.webp'
-import f3 from '@/images/small_feature-page_layout.webp'
-import f4 from '@/images/small_feature-affix_navigation.webp'
-import f5 from '@/images/small_feature-style_settings.webp'
-import f6 from '@/images/small_feature-multiple_templates.webp'
-import f7 from '@/images/small_feature-font_family.webp'
-import f8 from '@/images/small_feature-affix_sidebar.webp'
-import f9 from '@/images/small_feature-hide_sidebar.webp'
 import Image from 'next/image'
 
 const features = [
   {
-    image: f1,
+    id: 'layout',
     title: 'طرح‌ بندی مبتنی بر وضعیت کاربر',
     desc: 'نمایش طرح بندی های مختلف منو و پاورقی بر اساس وضعیت ورود مشتری.',
   },
   {
-    image: f2,
+    id: 'seo',
     title: 'مدیریت اولیه سئو',
     desc: 'مدیریت سئو برای صفحات قالب. عنوان صفحه سفارشی، توضیحات و تصویر شبکه های اجتماعی خود را اختصاص دهید.',
   },
   {
-    image: f3,
+    id: 'page_layout',
     title: 'طرح بندی سفارشی برای صفحات',
     desc: 'یک طرح را به صفحات خود اختصاص دهید و تنظیمات ایجاد شده در مدیریت طرح ها را بازنویسی کنید.',
   },
   {
-    image: f4,
+    id: 'affix_navigation',
     title: 'منوی ثابت',
     desc: 'هنگامی که مشتری وبسایت شما را به سمت بالا حرکت میدهد، منوی سایت را ثابت نگه دارید.',
   },
   {
-    image: f5,
+    id: 'style_settings',
     title: 'بخش های چند استایلی',
     desc: 'با استفاده از چند کلیک ساده میتوانید از بین 3 سبک مختلف موجود برای بخش های لاگوم انتخاب کنید.',
   },
   {
-    image: f6,
+    id: 'multiple_templates',
     title: 'قالب صفحات',
     desc: 'قالب های مختلف را برای صفحات انتخاب شده لاگوم تعریف کنید و تنظیمات آن را پیکربندی کنید.',
   },
   {
-    image: f7,
+    id: 'font_family',
     title: 'فونت های مختلف',
     desc: 'فونت مورد استفاده در قالب لاگوم را با چند کلیک ساده تغییر دهید.',
   },
   {
-    image: f8,
+    id: 'affix_sidebar',
     title: 'ساید بار ثابت',
     desc: 'نوار کنای ثابت',
   },
   {
-    image: f9,
+    id: 'hide_sidebar',
     title: 'پنهان کردن نوار کناری',
     desc: 'نوار کناری قالب لاگوم را برای صفحات انتخابی در مدیریت صفحه پنهان کنید.',
   },
@@ -71,7 +62,8 @@ export default function Other() {
             <Image
               className="rounded-lg ring shadow-lg shadow-zinc-800/7 ring-zinc-200"
               width={288}
-              src={f.image}
+              height={500}
+              src={`/small_feature-${f.id}.webp`}
               alt={f.title}
             />
             <h3 className="mt-8 mb-1 text-xl font-bold text-zinc-800">

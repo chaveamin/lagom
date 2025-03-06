@@ -3,7 +3,7 @@ import logo from '@/images/logo.svg'
 
 function Topbar() {
   return (
-    <div className="absolute top-0 right-0 z-20 hidden h-px min-h-10 w-full items-center border-b-[1px] border-b-zinc-100 px-14 lg:flex">
+    <div className="absolute top-0 right-0 z-20 hidden h-px min-h-10 w-full items-center px-14 lg:flex">
       <a href="https://designesia.ir/" target="_blank">
         <Image
           className="grayscale transition-all hover:grayscale-0"

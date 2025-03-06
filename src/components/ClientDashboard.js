@@ -9,7 +9,7 @@ export default function ClientDashboard() {
           transition={{ delay: '0.4' }}
           initial={{ translateY: '25px', opacity: 0 }}
           whileInView={{ translateY: '0', opacity: 1 }}
-          className="shadow-3xl rounded-lg ring-2 ring-blue-500/50"
+          className="shadow-3xl rounded-lg ring-2 shadow-blue-800/5 ring-blue-500/7"
           src="client-dashboard.webp"
           alt="ناحیه کاربری لاگوم"
         />
@@ -19,7 +19,7 @@ export default function ClientDashboard() {
           transition={{ delay: '0.3' }}
           initial={{ translateY: '25px', opacity: 0 }}
           whileInView={{ translateY: '0', opacity: 1 }}
-          className="shadow-3xl hidden rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-24 lg:-right-30 lg:block"
+          className="shadow-3xl hidden rounded-lg ring-2 shadow-blue-800/5 ring-blue-500/7 lg:absolute lg:top-24 lg:-right-30 lg:block"
           src="client-dashboard-left.webp"
           alt="ناحیه کاربری لاگوم"
         />
@@ -29,7 +29,7 @@ export default function ClientDashboard() {
           transition={{ delay: '0.5' }}
           initial={{ translateY: '25px', opacity: 0 }}
           whileInView={{ translateY: '0', opacity: 1 }}
-          className="shadow-3xl hidden rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-70 lg:-left-30 lg:block"
+          className="shadow-3xl hidden rounded-lg ring-2 shadow-blue-800/5 ring-blue-500/7 lg:absolute lg:top-70 lg:-left-30 lg:block"
           src="client-dashboard-right.webp"
           alt="ناحیه کاربری لاگوم"
         />

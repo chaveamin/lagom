@@ -100,10 +100,8 @@ function Nav({ isScrolled, mobileMenuOpen, setMobileMenuOpen }) {
   return (
     <header
       className={clsx(
-        'sticky z-10 rounded-xl bg-white/90 backdrop-blur-sm transition-all',
-        isScrolled
-          ? 'ring-1 shadow-sm shadow-zinc-800/5 ring-zinc-900/5 lg:top-5'
-          : 'lg:top-10',
+        'sticky z-10 rounded-xl bg-white/90 ring shadow-sm shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm transition-all',
+        isScrolled ? 'ring-1 lg:top-5' : 'lg:top-10',
       )}
     >
       <nav aria-label="Global" className="flex p-6">
@@ -131,10 +129,7 @@ function Nav({ isScrolled, mobileMenuOpen, setMobileMenuOpen }) {
 
             <PopoverPanel
               transition
-              className={clsx(
-                'absolute inset-x-0 top-20 -z-10 bg-white pt-14 ring-1 shadow-sm shadow-zinc-800/5 ring-zinc-900/5 transition data-[closed]:-translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[enter]:ease-out data-[leave]:duration-150 data-[leave]:ease-in',
-                isScrolled ? 'rounded-b-xl' : 'rounded-xl',
-              )}
+              className="absolute inset-x-0 top-20 -z-10 rounded-b-xl bg-white pt-14 ring-1 shadow-sm shadow-zinc-800/5 ring-zinc-900/5 transition data-[closed]:-translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[enter]:ease-out data-[leave]:duration-150 data-[leave]:ease-in"
             >
               <div className="mx-auto grid max-w-7xl grid-cols-3 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8">
                 {NavMenus.map((item) => (
@@ -174,10 +169,11 @@ function Nav({ isScrolled, mobileMenuOpen, setMobileMenuOpen }) {
             افزونه ها
           </Link>
           <Link
-            href="/#pricing"
+            target="_blank"
+            href="https://designesia.ir/"
             className="cursor-pointer rounded-md bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-blue-700"
           >
-            سفارش دهید
+            فروشگاه
           </Link>
         </PopoverGroup>
       </nav>

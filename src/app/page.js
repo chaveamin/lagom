@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import Hero from '@/components/Hero'
-import ClientDashboard from '@/components/ClientDashboard'
 import Styles from '@/components/Styles'
 import StyleManager from '@/components/StyleManager'
 import MenuManager from '@/components/MenuManager'
@@ -23,7 +22,6 @@ export default function Home() {
     <>
       <Bg />
       <Hero onPreviewClick={() => setIsSidebarOpen(true)} />
-      <ClientDashboard />
       <Styles />
       <StyleManager />
       <MenuManager />
