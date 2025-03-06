@@ -4,9 +4,9 @@ import * as motion from 'motion/react-client'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import Image from 'next/image'
-import mainmodal from '@/images/main-modal-promotion.png'
-import mainalert from '@/images/main-alert-information.png'
-import mainmodalnotif from '@/images/main-modal-notification.png'
+import mainmodal from '@/images/main-modal-promotion.webp'
+import mainalert from '@/images/main-alert-information.webp'
+import mainmodalnotif from '@/images/main-modal-notification.webp'
 
 export default function Slider() {
   return (
@@ -17,7 +17,7 @@ export default function Slider() {
       whileInView={{ translateY: '0', opacity: 1 }}
     >
       <Swiper
-        className="cursor-[url(/cursor.png)_32_32,auto] *:py-22"
+        className="cursor-[url(/cursor.webp)_32_32,auto] *:py-22"
         loop={true}
         spaceBetween={40}
         slidesPerView={2}

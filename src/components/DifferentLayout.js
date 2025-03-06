@@ -50,7 +50,7 @@ export default function DifferentLayout() {
                   className="lg:shadow-3xl mx-auto w-3/4 rounded-xl ring-1 shadow-xl shadow-zinc-800/5 ring-zinc-900/8"
                   width={1700}
                   height={1200}
-                  src={`/layout-${layout}.png`}
+                  src={`/layout-${layout}.webp`}
                   alt={layout}
                 />
               </a>

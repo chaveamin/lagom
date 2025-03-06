@@ -19,7 +19,7 @@ export default function Order() {
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.5' }}
           className="shadow-3xl rounded-lg ring-2 ring-blue-500/50"
-          src="/illustration-order-process.png"
+          src="/illustration-order-process.webp"
           alt="فرم سفارش لاگوم"
         />
         <motion.img
@@ -29,7 +29,7 @@ export default function Order() {
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.3' }}
           className="shadow-3xl hidden rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-80 lg:-left-30 lg:block"
-          src="/illustration-order-process-right.png"
+          src="/illustration-order-process-right.webp"
           alt="فرم سفارش لاگوم"
         />
         <motion.img
@@ -39,7 +39,7 @@ export default function Order() {
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.3' }}
           className="shadow-3xl hidden rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-40 lg:-left-30 lg:block"
-          src="/illustration-order-process-right-1.png"
+          src="/illustration-order-process-right-1.webp"
           alt="فرم سفارش لاگوم"
         />
         <motion.img
@@ -49,7 +49,7 @@ export default function Order() {
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.3' }}
           className="shadow-3xl hidden rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-20 lg:-right-30 lg:block"
-          src="/client-dashboard-left.png"
+          src="/client-dashboard-left.webp"
           alt="فرم سفارش لاگوم"
         />
       </div>

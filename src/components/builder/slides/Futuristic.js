@@ -21,9 +21,9 @@ export default function Futuristic() {
         {colors.map((color) => (
           <SwiperSlide className="relative pt-4 pb-24 lg:pt-18" key={color}>
             <img
-              className="lg:shadow-4xl mx-auto max-w-9/10 cursor-[url(/cursor.png)_32_32,auto!important] rounded-xl ring-1 shadow-xl shadow-zinc-800/5 ring-zinc-900/8 lg:max-w-3/4"
+              className="lg:shadow-4xl mx-auto max-w-9/10 cursor-[url(/cursor.webp)_32_32,auto!important] rounded-xl ring-1 shadow-xl shadow-zinc-800/5 ring-zinc-900/8 lg:max-w-3/4"
               alt={`${color}-style`}
-              src={`/cms/futuristic-${color}.png`}
+              src={`/cms/futuristic-${color}.webp`}
             />
           </SwiperSlide>
         ))}

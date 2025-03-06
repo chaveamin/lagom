@@ -58,7 +58,7 @@ export default function Customize() {
               className="rounded-lg ring shadow-sm shadow-zinc-800/5 ring-zinc-200"
               width={240}
               height={180}
-              src={`/email/lagom-email-gallery-${c.id}.png`}
+              src={`/email/lagom-email-gallery-${c.id}.webp`}
               alt="قالب ایمیل لاگوم"
             ></Image>
             <h3 className="text-xl font-bold">{c.title}</h3>

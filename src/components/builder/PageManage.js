@@ -20,7 +20,7 @@ export default function PageManage() {
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.3', duration: '0.5' }}
           className="shadow-3xl rounded-lg ring-2 ring-blue-500/50"
-          src="/cms/cms-website_page_management-main.png"
+          src="/cms/cms-website_page_management-main.webp"
           alt="مدیریت صفحات سایت ساز"
         />
         <motion.img
@@ -30,7 +30,7 @@ export default function PageManage() {
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.5', duration: '0.5' }}
           className="shadow-3xl hidden rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-10 lg:-left-30 lg:block"
-          src="/cms/cms-website_page_management-left-1.png"
+          src="/cms/cms-website_page_management-left-1.webp"
           alt="مدیریت صفحات سایت ساز"
         />
         <motion.img
@@ -40,7 +40,7 @@ export default function PageManage() {
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.7', duration: '0.5' }}
           className="shadow-3xl hidden rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-70 lg:-left-30 lg:block"
-          src="/cms/cms-website_page_management-left-2.png"
+          src="/cms/cms-website_page_management-left-2.webp"
           alt="مدیریت صفحات سایت ساز"
         />
         <motion.img
@@ -50,7 +50,7 @@ export default function PageManage() {
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.6', duration: '0.5' }}
           className="shadow-3xl hidden rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-50 lg:-right-30 lg:block"
-          src="/cms/cms-website_page_management-right-1.png"
+          src="/cms/cms-website_page_management-right-1.webp"
           alt="مدیریت صفحات سایت ساز"
         />
         <motion.img

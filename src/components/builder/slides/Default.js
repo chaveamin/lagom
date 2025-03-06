@@ -21,9 +21,9 @@ export default function Default() {
         {colors.map((color) => (
           <SwiperSlide className="relative pt-4 pb-24 lg:pt-18" key={color}>
             <img
-              className="mx-auto max-w-9/10 cursor-[url(/cursor.png)_32_32,auto!important] rounded-xl ring-1 shadow-xl shadow-zinc-800/5 ring-zinc-900/8 lg:max-w-3/4 lg:shadow-2xl"
+              className="mx-auto max-w-9/10 cursor-[url(/cursor.webp)_32_32,auto!important] rounded-xl ring-1 shadow-xl shadow-zinc-800/5 ring-zinc-900/8 lg:max-w-3/4 lg:shadow-2xl"
               alt={`${color}-style`}
-              src={`/cms/default-${color}.png`}
+              src={`/cms/default-${color}.webp`}
             />
           </SwiperSlide>
         ))}

@@ -49,7 +49,7 @@ export default function Features() {
             <img
               className="rounded-lg ring shadow-sm shadow-zinc-800/7 ring-zinc-200"
               width={288}
-              src={`/cms/cms-feature-${f.id}.png`}
+              src={`/cms/cms-feature-${f.id}.webp`}
               alt={f.title}
             />
             <h3 className="mt-8 mb-1 text-xl font-bold text-zinc-800">

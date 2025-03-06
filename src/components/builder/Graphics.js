@@ -29,10 +29,10 @@ export default function Graphics() {
         speed={80000}
       >
         <SwiperSlide>
-          <img src="/cms/cms-icons-presentation.png" />
+          <img src="/cms/cms-icons-presentation.webp" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/cms/cms-icons-presentation.png" />
+          <img src="/cms/cms-icons-presentation.webp" />
         </SwiperSlide>
       </Swiper>
     </section>

@@ -13,47 +13,47 @@ const demos = [
     tab: 'محبوب',
     slides: [
       {
-        image: '/cms/cms_page-homepage.png',
+        image: '/cms/cms_page-homepage.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder',
         title: 'صفحه اصلی',
       },
       {
-        image: '/cms/cms_page-vps_hosting-main.png',
+        image: '/cms/cms_page-vps_hosting-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/vps-hosting',
         title: 'سرور مجازی',
       },
       {
-        image: '/cms/cms_page-dedicated_servers-main.png',
+        image: '/cms/cms_page-dedicated_servers-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/dedicated-servers',
         title: 'سرور اختصاصی',
       },
       {
-        image: '/cms/cms_page-site_builder-main.png',
+        image: '/cms/cms_page-site_builder-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/site-builder',
         title: 'سایت ساز',
       },
       {
-        image: '/cms/cms_page-domain_search-main.png',
+        image: '/cms/cms_page-domain_search-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/domain-names',
         title: 'دامنه',
       },
       {
-        image: '/cms/cms_page-360_monitoring-main.png',
+        image: '/cms/cms_page-360_monitoring-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/360-monitoring',
         title: 'مانیتورینگ وبسایت',
       },
       {
-        image: '/cms/cms_page-game_servers-main.png',
+        image: '/cms/cms_page-game_servers-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/game-servers',
         title: 'سرورهای گیمینگ',
       },
       {
-        image: '/cms/cms_page-game_servers-gta.png',
+        image: '/cms/cms_page-game_servers-gta.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/game-servers/gta-5',
         title: 'صفحه اصلی گیم',
       },
       {
-        image: '/cms/cms_page-about_us-main.png',
+        image: '/cms/cms_page-about_us-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/about-us',
         title: 'درباره ما',
       },
@@ -63,37 +63,37 @@ const demos = [
     tab: 'محصولات',
     slides: [
       {
-        image: '/cms/cms_page-shared_hosting-main.png',
+        image: '/cms/cms_page-shared_hosting-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/shared-hosting',
         title: 'هاست اشتراکی(لینوکس)',
       },
       {
-        image: '/cms/cms_page-wordpress_hosting-main.png',
+        image: '/cms/cms_page-wordpress_hosting-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/wordpress-hosting',
         title: 'هاست وردپرس',
       },
       {
-        image: '/cms/cms_page-reseller_hosting-main.png',
+        image: '/cms/cms_page-reseller_hosting-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/reseller-hosting',
         title: 'نمایندگی هاست',
       },
       {
-        image: '/cms/cms_page-cloud_hosting-main.png',
+        image: '/cms/cms_page-cloud_hosting-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/cloud-servers',
         title: 'سرور ابری',
       },
       {
-        image: '/cms/cms_page-dedicated_servers-main.png',
+        image: '/cms/cms_page-dedicated_servers-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/dedicated-servers',
         title: 'سرور اختصاصی',
       },
       {
-        image: '/cms/cms_page-domain_search-main.png',
+        image: '/cms/cms_page-domain_search-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/domain-names',
         title: 'ثبت دامنه',
       },
       {
-        image: '/cms/cms_page-domain_transfer-main.png',
+        image: '/cms/cms_page-domain_transfer-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/domain-transfer',
         title: 'انتقال دامنه',
       },
@@ -103,37 +103,37 @@ const demos = [
     tab: 'امنیت و ابزارها',
     slides: [
       {
-        image: '/cms/cms_page-website_builder-main.png',
+        image: '/cms/cms_page-website_builder-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/website-builder',
         title: 'سایت ساز',
       },
       {
-        image: '/cms/cms_page-site_builder-main.png',
+        image: '/cms/cms_page-site_builder-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/site-builder',
         title: 'سایت ساز 2',
       },
       {
-        image: '/cms/cms_page-ssl_certificates-main.png',
+        image: '/cms/cms_page-ssl_certificates-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/ssl-certificates',
         title: 'گواهی SSL',
       },
       {
-        image: '/cms/cms_page-website_security-main.png',
+        image: '/cms/cms_page-website_security-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/website-security',
         title: 'امنیت وبسایت',
       },
       {
-        image: '/cms/cms_page-seo_tools-main.png',
+        image: '/cms/cms_page-seo_tools-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/seo-tools',
         title: 'سئو',
       },
       {
-        image: '/cms/cms_page-email_services-main.png',
+        image: '/cms/cms_page-email_services-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/email-services',
         title: 'خدمات ایمیل',
       },
       {
-        image: '/cms/cms_page-360_monitoring-main.png',
+        image: '/cms/cms_page-360_monitoring-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/360-monitoring',
         title: 'مانیتورینگ وبسایت',
       },
@@ -143,22 +143,22 @@ const demos = [
     tab: 'سایر ',
     slides: [
       {
-        image: '/cms/cms_page-about_us-main.png',
+        image: '/cms/cms_page-about_us-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/about-us',
         title: 'درباره ما',
       },
       {
-        image: '/cms/cms_page-contact_us-main.png',
+        image: '/cms/cms_page-contact_us-main.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/contact-us',
         title: 'ارتباط',
       },
       {
-        image: '/cms/cms_page-terms_of_service.png',
+        image: '/cms/cms_page-terms_of_service.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/legal/terms-of-services',
         title: 'شرایط خدمات',
       },
       {
-        image: '/cms/cms_page-privacy_policy.png',
+        image: '/cms/cms_page-privacy_policy.webp',
         href: 'https://demo.rsstudio.net/lagom-website-builder/legal/privacy-policy',
         title: 'قوانین',
       },

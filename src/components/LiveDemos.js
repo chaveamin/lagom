@@ -327,12 +327,13 @@ export default function LiveDemos({ isOpen, onClose }) {
                           width={330}
                           height={230}
                           alt={demo.id}
-                          src={`/style-${demo.style}_layout-${demo.layout}.png`}
+                          src={`/style-${demo.style}_layout-${demo.layout}.webp`}
                         />
                       </a>
                       <div className="flex items-end bg-blue-50 pt-4">
                         <h4 className="texl-lg grow font-bold">{demo.id}</h4>
                         <a
+                          target="_blank"
                           className="rounded-sm border border-blue-600 px-8 py-2 text-sm font-semibold text-blue-600 transition-colors hover:bg-blue-600 hover:text-white"
                           href={`https://demo.rs-studio.ir/lagom/index.php?rsstyle=${demo.style}&rsmenulayout=${demo.layout}`}
                         >

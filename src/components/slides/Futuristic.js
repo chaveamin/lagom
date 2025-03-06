@@ -20,13 +20,13 @@ export default function Futuristic() {
           <SwiperSlide className="relative pt-4 pb-24 lg:pt-18" key={color}>
             <a
               target="_blank"
-              className="cursor-[url(/cursor.png)_32_32,auto!important]"
+              className="cursor-[url(/cursor.webp)_32_32,auto!important]"
               href={`https://demo.rsstudio.net/lagom/index.php?rsstyle=futuristic&rsmenulayout=left-nav&rscolorstyle=${color}`}
             >
               <img
                 className="lg:shadow-4xl mx-auto max-w-9/10 rounded-xl ring-1 shadow-xl shadow-zinc-800/5 ring-zinc-900/8 lg:max-w-3/4"
                 alt={`${color}-style`}
-                src={`/futuristic-${color}.png`}
+                src={`/futuristic-${color}.webp`}
               />
             </a>
           </SwiperSlide>

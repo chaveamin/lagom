@@ -20,7 +20,7 @@ export default function StyleManager() {
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.5' }}
           className="shadow-3xl rounded-lg ring-2 ring-blue-500/50"
-          src="illustration-style-manager.png"
+          src="illustration-style-manager.webp"
           alt="ناحیه کاربری لاگوم"
         />
         <motion.img
@@ -30,7 +30,7 @@ export default function StyleManager() {
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.3' }}
           className="shadow-3xl hidden w-58 rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-34 lg:-right-30 lg:block"
-          src="illustration-style-manager-left.png"
+          src="illustration-style-manager-left.webp"
           alt="ناحیه کاربری لاگوم"
         />
         <motion.img
@@ -40,7 +40,7 @@ export default function StyleManager() {
           whileInView={{ translateY: '0', opacity: 1 }}
           transition={{ delay: '0.7' }}
           className="shadow-3xl hidden w-58 rounded-lg ring-2 ring-blue-500/50 lg:absolute lg:top-10 lg:-left-30 lg:block"
-          src="illustration-style-manager-right.png"
+          src="illustration-style-manager-right.webp"
           alt="ناحیه کاربری لاگوم"
         />
       </div>

@@ -10,7 +10,7 @@ export default function Intro() {
           initial={{ translateY: '25px', opacity: 0 }}
           whileInView={{ translateY: '0', opacity: 1 }}
           width={840}
-          src="/cms/cms-center-main.png"
+          src="/cms/cms-center-main.webp"
           alt="سایت ساز لاگوم - راه حل هاستینگ بدون دردسر"
         />
         <motion.img

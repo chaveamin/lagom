@@ -11,7 +11,7 @@ export default function Intro() {
           initial={{ translateY: '25px', opacity: 0 }}
           whileInView={{ translateY: '0', opacity: 1 }}
           width={840}
-          src="/email/lagom-email_preview-main.png"
+          src="/email/lagom-email_preview-main.webp"
           alt="افزونه بنر تبلیغات لاگوم"
         />
       </div>

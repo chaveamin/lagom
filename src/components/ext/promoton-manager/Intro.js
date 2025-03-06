@@ -29,7 +29,7 @@ export default function Intro() {
           initial={{ translateY: '25px', opacity: 0 }}
           whileInView={{ translateY: '0', opacity: 1 }}
           width={840}
-          src="/promotion-manager/promotion-manager_main-center.png"
+          src="/promotion-manager/promotion-manager_main-center.webp"
           alt="افزونه بنر تبلیغات لاگوم"
         />
         <motion.img
@@ -39,7 +39,7 @@ export default function Intro() {
           whileInView={{ translateY: '0', opacity: 1 }}
           className="absolute top-30 -right-40 hidden lg:block"
           width={224}
-          src="/promotion-manager/promotion-manager_main-left.png"
+          src="/promotion-manager/promotion-manager_main-left.webp"
           alt="افزونه بنر تبلیغات لاگوم"
         />
         <motion.img
@@ -49,7 +49,7 @@ export default function Intro() {
           whileInView={{ translateY: '0', opacity: 1 }}
           className="absolute top-20 -left-20 hidden lg:block"
           width={180}
-          src="/promotion-manager/promotion-manager_main-right.png"
+          src="/promotion-manager/promotion-manager_main-right.webp"
           alt="افزونه بنر تبلیغات لاگوم"
         />
       </div>

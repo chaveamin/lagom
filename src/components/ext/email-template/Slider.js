@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import email from '@/images/lagom-email-slider-1.png'
-import email_2 from '@/images/lagom-email-slider-2.png'
-import email_3 from '@/images/lagom-email-slider-3.png'
+import email from '@/images/lagom-email-slider-1.webp'
+import email_2 from '@/images/lagom-email-slider-2.webp'
+import email_3 from '@/images/lagom-email-slider-3.webp'
 
 export default function Slider() {
   return (

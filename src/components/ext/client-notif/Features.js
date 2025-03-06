@@ -58,7 +58,7 @@ export default function Features() {
               className="rounded-lg ring shadow-sm shadow-zinc-800/5 ring-zinc-200"
               width={240}
               height={180}
-              src={`/client-notif/feature_sm-${f.id}.png`}
+              src={`/client-notif/feature_sm-${f.id}.webp`}
               alt="افزونه اعلان مشتری لاگوم"
             ></Image>
             <h3 className="text-xl font-bold">{f.title}</h3>

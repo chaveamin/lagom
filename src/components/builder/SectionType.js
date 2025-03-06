@@ -83,7 +83,7 @@ export default function SectionType() {
           <div key={s.id} className="group flex max-w-72 flex-col">
             <img
               className="w-full rounded-lg ring shadow-sm ring-zinc-200 transition-shadow hover:shadow-xl"
-              src={`/cms/cms-section-${s.id}.png`}
+              src={`/cms/cms-section-${s.id}.webp`}
               alt={s.title}
             />
             <h3 className="mt-2 text-center text-lg font-light text-zinc-800 transition-colors group-hover:text-blue-600">
