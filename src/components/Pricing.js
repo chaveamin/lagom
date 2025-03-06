@@ -1,4 +1,21 @@
-import React from 'react'
+function CheckIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="size-5 flex-none text-blue-600"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="m4.5 12.75 6 6 9-13.5"
+      />
+    </svg>
+  )
+}
 
 export default function Pricing() {
   return (
@@ -8,37 +25,44 @@ export default function Pricing() {
           قیمت گذاری
         </h2>
       </div>
-      <div className="mx-auto flex max-w-5xl flex-wrap gap-y-8 *:flex *:w-md *:flex-col *:items-center *:justify-center *:rounded-lg *:bg-zinc-50 *:p-6 *:ring *:shadow-sm *:ring-zinc-200 *:transition-transform *:hover:-translate-y-2 *:hover:shadow-lg lg:flex-nowrap lg:gap-x-8 *:lg:w-lg">
+      <div className="mx-auto grid max-w-md grid-cols-1 gap-8 *:flex *:flex-col *:justify-between *:rounded-3xl *:bg-white *:p-8 *:ring-1 *:shadow-xl *:ring-gray-900/10 *:sm:p-10 lg:max-w-4xl lg:grid-cols-2">
         <div>
-          <h4 className="text-3xl leading-10 font-light">امگا</h4>
-          <div className="relative mt-6 pb-10 text-center before:absolute before:bottom-0 before:left-[calc(50%_-_20px)] before:h-[3px] before:w-10 before:rounded-xs before:bg-blue-600 before:content-['']">
-            <p className="text-sm leading-5 font-normal text-zinc-700">
-              شروع از
-            </p>
-            <h3 className="text-[40px] font-bold">
-              1,360,000 <span className="text-2xl font-light">تومانءءء</span>
-            </h3>
-            <p className="text-sm font-normal text-zinc-700">سالانه</p>
+          <h4 className="text-lg font-semibold text-blue-600">امگا</h4>
+          <div className="relative pb-10 text-center before:absolute before:right-0 before:bottom-0 before:h-[3px] before:w-10 before:rounded-xs before:bg-blue-600 before:content-['']">
+            <div className="mt-4 flex items-baseline gap-x-2">
+              <span className="text-4xl font-semibold tracking-tight text-gray-900">
+                1,360,000 تومانءءء
+              </span>
+              <span className="text-base/7 font-semibold text-gray-600">
+                /سالانه
+              </span>
+            </div>
           </div>
-          <ul className="*: mt-8 text-center *:mb-3 *:text-base *:font-light *:text-zinc-800">
+          <ul
+            role="list"
+            className="mt-10 space-y-4 text-sm text-gray-600 *:flex *:gap-x-3"
+          >
             <li>
-              سازگار با نسخه <span className="font-bold">PHP 7.4</span>
+              <CheckIcon aria-hidden="true" />
+              سازگار با نسخه PHP 7.4
             </li>
             <li>
-              <span className="font-bold">6 ماه</span> پشتیبانی
+              <CheckIcon aria-hidden="true" />6 ماه پشتیبانی
             </li>
             <li>
-              <span className="font-bold">1 سال</span> آپدیت
+              <CheckIcon aria-hidden="true" />1 سال آپدیت
             </li>
             <li>
-              <span className="font-bold">بدون محدودیت</span> دامنه
+              <CheckIcon aria-hidden="true" />
+              بدون محدودیت دامنه
             </li>
             <li>
-              لایسنس <span className="font-bold">مادام العمر</span>
+              <CheckIcon aria-hidden="true" />
+              لایسنس مادام العمر
             </li>
           </ul>
           <a
-            className="mt-6 w-36 rounded-lg bg-blue-600 py-4 text-center font-medium text-white transition-colors hover:bg-blue-700"
+            className="mt-8 block rounded-md bg-blue-600 px-3.5 py-2 text-center text-sm/6 font-semibold text-white shadow-xs hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             href="https://designesia.ir/downloads/lagom-whmcs-theme/"
             target="_blank"
           >
@@ -46,35 +70,42 @@ export default function Pricing() {
           </a>
         </div>
         <div>
-          <h4 className="text-3xl leading-10 font-light">آلفا</h4>
-          <div className="relative mt-6 pb-10 text-center before:absolute before:bottom-0 before:left-[calc(50%_-_20px)] before:h-[3px] before:w-10 before:rounded-xs before:bg-blue-600 before:content-['']">
-            <p className="text-sm leading-5 font-normal text-zinc-700">
-              شروع از
-            </p>
-            <h3 className="text-[40px] font-bold">
-              2,500,000 <span className="text-2xl font-light">تومانءءء</span>
-            </h3>
-            <p className="text-sm font-normal text-zinc-700">سالانه</p>
+          <h4 className="text-lg font-semibold text-blue-600">امگا</h4>
+          <div className="relative pb-10 text-center before:absolute before:right-0 before:bottom-0 before:h-[3px] before:w-10 before:rounded-xs before:bg-blue-600 before:content-['']">
+            <div className="mt-4 flex items-baseline gap-x-2">
+              <span className="text-4xl font-semibold tracking-tight text-gray-900">
+                2,500,000 تومانءءء
+              </span>
+              <span className="text-base/7 font-semibold text-gray-600">
+                /سالانه
+              </span>
+            </div>
           </div>
-          <ul className="*: mt-8 text-center *:mb-3 *:text-base *:font-light *:text-zinc-800">
+          <ul
+            role="list"
+            className="mt-10 space-y-4 text-sm text-gray-600 *:flex *:gap-x-3"
+          >
             <li>
-              سازگار با نسخه <span className="font-bold">PHP 8.1</span>
+              <CheckIcon aria-hidden="true" />
+              سازگار با نسخه PHP 8.1
             </li>
             <li>
-              <span className="font-bold">6 ماه</span> پشتیبانی
+              <CheckIcon aria-hidden="true" />6 ماه پشتیبانی
             </li>
             <li>
-              <span className="font-bold">1 سال</span> آپدیت
+              <CheckIcon aria-hidden="true" />1 سال آپدیت
             </li>
             <li>
-              <span className="font-bold">بدون محدودیت</span> دامنه
+              <CheckIcon aria-hidden="true" />
+              بدون محدودیت دامنه
             </li>
             <li>
-              لایسنس <span className="font-bold">مادام العمر</span>
+              <CheckIcon aria-hidden="true" />
+              لایسنس مادام العمر
             </li>
           </ul>
           <a
-            className="mt-6 w-36 rounded-lg bg-blue-600 py-4 text-center font-medium text-white transition-colors hover:bg-blue-700"
+            className="mt-8 block rounded-md bg-blue-600 px-3.5 py-2 text-center text-sm/6 font-semibold text-white shadow-xs hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             href="https://designesia.ir/downloads/lagom-whmcs-theme/"
             target="_blank"
           >

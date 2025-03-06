@@ -27,19 +27,19 @@ const extensions = [
     icon: CN,
     title: 'اعلان مشتری',
     price: '1,400,000',
-    href: '#',
+    href: '/client-notifications',
   },
   {
     icon: CC,
     title: 'کد سفارشی',
     price: '800,000',
-    href: '#',
+    href: '/support-hours',
   },
   {
     icon: SH,
     title: 'ساعا کاری',
     price: '1,000,000',
-    href: '#',
+    href: '/support-hours',
   },
 ]
 

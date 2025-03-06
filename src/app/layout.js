@@ -30,7 +30,7 @@ export const metadata = {
   },
   metadataBase: new URL('https://lagom.rs-studio.ir/products/client-theme/'),
   openGraph: {
-    images: '/og-image.jpg',
+    images: '/og-image.webp',
   },
   robots: {
     index: true,
