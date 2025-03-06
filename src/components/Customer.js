@@ -5,7 +5,6 @@ import 'swiper/css/pagination'
 import { Pagination } from 'swiper/modules'
 import digitalvps from '@/images/digitalvps.webp'
 import fannegarhost from '@/images/fannegarhost.webp'
-import anicloud from '@/images/anicloud.webp'
 import serversetup from '@/images/serversetup.webp'
 import Image from 'next/image'
 
