@@ -1,3 +1,4 @@
+import Features from '@/components/ext/custom-code/Features'
 import Hero from '@/components/ext/custom-code/Hero'
 import Intro from '@/components/ext/custom-code/Intro'
 
@@ -18,6 +19,7 @@ export default function page() {
     <>
       <Hero />
       <Intro />
+      <Features />
     </>
   )
 }
