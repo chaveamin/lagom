@@ -1,5 +1,9 @@
+import CTA from '@/components/CTA'
+import FAQ from '@/components/ext/support-hours/FAQ'
 import Features from '@/components/ext/support-hours/Features'
 import Hero from '@/components/ext/support-hours/Hero'
+import Holiday from '@/components/ext/support-hours/Holiday'
+import Pricing from '@/components/ext/support-hours/Pricing'
 import Slider from '@/components/ext/support-hours/Slider'
 
 export const metadata = {
@@ -21,6 +25,10 @@ export default function page() {
       <Hero />
       <Slider />
       <Features />
+      <Holiday />
+      <Pricing />
+      <FAQ />
+      <CTA />
     </>
   )
 }

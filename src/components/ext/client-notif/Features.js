@@ -21,7 +21,7 @@ const features = [
   },
   {
     id: 'config-filter',
-    title: 'گزینه های فیلتر سرویس ها',
+    title: 'گزینه فیلتر سرویس ها',
     desc: 'گزینه های قابل تنظیم بر اساس سرویس های انتخابی نشان داده می شوند و به شما امکان می دهند فیلترهای دقیق تری را برای اعلان تعریف کنید.',
     href: '#',
   },
@@ -33,7 +33,7 @@ const features = [
   },
   {
     id: 'date-filter',
-    title: 'نمایش بر اساس محدوده تاریخ',
+    title: 'نمایش بر اساس تاریخ',
     desc: 'اعلان ها را می توان به گونه ای پیکربندی کرد که همیشه قابل مشاهده باشد، یا برای محدود تاریخ خاص، که می تواند در صفحه مدیریت تنظیم شود.',
     href: '#',
   },
@@ -62,7 +62,7 @@ export default function Features() {
               alt="افزونه اعلان مشتری لاگوم"
             ></Image>
             <h3 className="text-xl font-bold">{f.title}</h3>
-            <p className="mb-2 text-justify font-light text-zinc-700">
+            <p className="mb-2 h-32 text-justify font-light text-zinc-700">
               {f.desc}
             </p>
             <a
