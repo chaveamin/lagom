@@ -28,7 +28,7 @@ export default function Hero() {
           ارسال <span className="font-extrabold">ایمیل های زیبا</span> با استایل
           لاگوم از طریق WHMCS
         </h2>
-        <p className="text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           با قالب ایمیل WHMCS که به زیبایی طراحی شده است، تجربه مشتریان خود را
           بهبود بخشید. بین 3 سبک مختلف انتخاب کنید تا آن را با برند خود مطابقت
           دهید.

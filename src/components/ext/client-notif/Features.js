@@ -46,7 +46,7 @@ export default function Features() {
         <h4 className="mb-8 text-2xl leading-12 font-extrabold text-zinc-800 lg:text-5xl lg:leading-16">
           تنظیمات نمایش پیشرفته
         </h4>
-        <p className="text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           گزینه های پیکربندی چندگانه به شما امکان می دهد دقیقاً برای مواردی که
           اعلان ایجاد شده باید در قالب لاگوم نشان داده شود، تعریف کنید.
         </p>

@@ -7,7 +7,7 @@ export default function Sitemap() {
         <h2 className="text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           ساخت نقشه سایت
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           بدون کدنوسی نقشه های سایت را با سایت ساز لاگوم ایجاد کنید. هر زمان که
           صفحه جدیدی را اضافه میکنید، نقشه سایت به طور خودکار ایجاد میشود، این
           امر، روند را ساده میکند و اطمینان حاصل میکند که سایت شما سئو فرندلی

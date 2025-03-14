@@ -57,7 +57,7 @@ export default function Intro() {
         <h4 className="text-2xl leading-12 font-extrabold text-zinc-800 lg:text-5xl lg:leading-16">
           چگونگی استفاده
         </h4>
-        <p className="text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           افزونه بنر تبلیغات قالب لاگوم به شما امکان ایجاد بنرهای تبلیغاتی خود
           را به جای محصولات پیش فرض میدهد. به لطف این افزونه، شما همچنین
           میتوانید بنرهای خود را در دموی &quot;مدرن&quot; قالب ایجاد کنید

@@ -7,7 +7,7 @@ export default function Order() {
         <h2 className="text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           قالب فرم سفارش
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           قالب فرم سفارش جذاب، ساده و بصری، که بطور کامل با قالب ناحیه کاربری
           لاگوم سازگار شده است.
         </p>

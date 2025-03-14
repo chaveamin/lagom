@@ -7,7 +7,7 @@ export default function PageManage() {
         <h2 className="text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           مدیریت صفحات وبسایت
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           با سایت ساز لاگوم مدیریت صفحه بدون مشکل را تجربه کنید و دنیایی از
           امکانات سفارشی سازی را باز کنید. کنترل وب سایت خود را در دست بگیرید.
         </p>

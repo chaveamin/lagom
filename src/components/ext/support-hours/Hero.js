@@ -22,22 +22,22 @@ export default function Hero() {
     <section className="relative mx-auto w-full pt-18 pb-24 lg:max-w-3xl">
       <div className="flex flex-col gap-y-8">
         <h1 className="text-lg font-semibold text-blue-600">
-          افزونه کد سفارشی برای قالب ناحیه کاربری لاگوم
+          افزونه ساعات کاری برای قالب ناحیه کاربری لاگوم
         </h1>
         <h2 className="text-4xl leading-12 font-light text-zinc-800 lg:text-6xl lg:leading-22">
-          <span className="font-extrabold">کد سفارشی</span> خود را به راحتی در
-          صفحات سایت وارد کنید
+          افزایش <span className="font-extrabold">رضایت مشتری</span> با ساعات
+          کاری
         </h2>
         <p className="text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
-          کد های HTML CSS و جاوا اسکریپت شخصی‌سازی‌شده را ادغام کنید تا تجربه
-          قالب لاگوم خود را تنها با چند کلیک ساده افزایش دهید.
+          مشتریان خود را در مورد ساعات کار دپارتمان های پشتیبانی به آسانی آگاه
+          کنید. تضمین یک سیستم پشتیبانی شفاف و قابل اعتماد.
         </p>
         <div className="flex flex-col items-center gap-y-6 *:rounded-lg *:px-7 *:py-3 *:text-center *:text-xl *:font-medium lg:flex-row lg:gap-x-6">
           <a
             className="w-full bg-blue-600 text-white transition-colors hover:bg-blue-700 lg:w-fit"
             href="#pricing"
           >
-            شروع از 800,000 تومانءءء/سالانه
+            شروع از 1,000,000 تومانءءء/سالانه
           </a>
           <a
             className="w-full border-2 border-blue-600 text-blue-600 transition-colors hover:bg-blue-100 lg:w-fit"

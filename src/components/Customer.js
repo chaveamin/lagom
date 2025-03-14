@@ -36,7 +36,7 @@ export default function Customer() {
         <h2 className="text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           مشتریان
         </h2>
-        <p className="text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           سایت های زیر توسط بنده بر اساس محصولات لاگوم نصب و شخصی سازی شده است.
           برای شخصی سازی وبسایت خود با راه های ارتباطی موجود در سایت تماس
           بگیرید.

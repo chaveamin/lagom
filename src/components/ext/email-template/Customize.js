@@ -46,7 +46,7 @@ export default function Customize() {
         <h4 className="mb-8 text-2xl leading-12 font-extrabold text-zinc-800 lg:text-5xl lg:leading-16">
           شخصی سازی آسان از طریق پنل لاگوم
         </h4>
-        <p className="text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           افزونه لاگوم به شما این امکان را میدهد تمام موارد قالب را از طریق یک
           رابط کاربری ساده مدیریت کنید و روند شخصی سازی را بسیار ساده میکند.
         </p>

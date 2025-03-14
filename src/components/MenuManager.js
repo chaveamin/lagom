@@ -7,7 +7,7 @@ export default function MenuManager() {
         <h2 className="text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           مدیریت منو
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           از این به بعد، برای شخصی سازی منوی سایت قالب لاگوم نیازی به ایجاد
           افزونه های پیچیده WHMCS ندارید. مدیریت منو یک گزینه فوق العاده راحت
           برای تنظیم آیتم های منو از پنل قالب ارائه میدهد.

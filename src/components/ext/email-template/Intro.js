@@ -19,7 +19,7 @@ export default function Intro() {
         <h4 className="mb-8 text-2xl leading-12 font-extrabold text-zinc-800 lg:text-5xl lg:leading-16">
           قالب ایمیل لاگوم چیست؟
         </h4>
-        <p className="text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           قالب ایمیل لاگوم، قالب ناحیه کاربری لاگوم را گسترش میدهد و به شما این
           امکان را میدهد استایل ایمیل WHMCS خود را به آسانی تغییر دهید. از بین
           سه استایل فقط با چند کلیک انتخاب کنید.

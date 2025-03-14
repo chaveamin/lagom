@@ -38,7 +38,7 @@ export default function Features() {
         <h2 className="mb-8 text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           امکانات ویژه
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           مجموعه عظیمی از قابلیت ها را در سایت ساز لاگوم کشف کنید که حضور آنلاین
           شما را تقویت می کند.
         </p>

@@ -83,7 +83,7 @@ export default function UseCase() {
         <h2 className="text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           نمونه موارد استفاده
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           با گزینه‌های مدیریتی متوع، این افزونه گزینه‌های استفاده نامحدودی را در
           اختیار شما قرار می‌دهد که تنها تعداد کمی از آنها در زیر فهرست شده‌اند.
         </p>

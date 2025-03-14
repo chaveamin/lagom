@@ -19,7 +19,7 @@ export default function DifferentLayout() {
         <h2 className="text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           طرح بندی های مختلف
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           از 5 طرح بندی برای منوی اصلی و 2 طرح بندی مختلف برای فوتر استفاده
           کنید.
         </p>

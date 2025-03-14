@@ -173,7 +173,7 @@ export default function Demos() {
         <h2 className="text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           راه اندازی وبسایت با یک کلیک
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           سایت ساز لاگوم دارای یک کتابخانه همه کاره بیش از{' '}
           <span className="font-extrabold">40 صفحه</span> از پیش طراحی شده است
           که انواع محصولات مختلف و نیازهای وب سایت را برآورده می کند. آنها را به

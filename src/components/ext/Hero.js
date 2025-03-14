@@ -27,16 +27,16 @@ const extensions = [
     href: '/extensions/client-notifications/',
   },
   {
+    icon: SH,
+    title: 'ساعات کاری',
+    price: '1,000,000',
+    href: '/extensions/support-hours/',
+  },
+  {
     icon: CC,
     title: 'کد سفارشی',
     price: '800,000',
     href: '/extensions/custom-code/',
-  },
-  {
-    icon: SH,
-    title: 'ساعا کاری',
-    price: '1,000,000',
-    href: '/extensions/support-hours/',
   },
 ]
 

@@ -28,7 +28,7 @@ export default function Hero() {
           ایجاد و مدیریت <span className="font-extrabold">اعلان های مشتری</span>{' '}
           در WHMCS
         </h2>
-        <p className="text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           مشتریان را در مورد تخفیفات، تعمیر و نگهداری سایت، محصول جدید یا در
           دسترس بودن سرور جدید و موارد دیگر مطلع کنید.
         </p>

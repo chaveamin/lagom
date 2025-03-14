@@ -11,7 +11,7 @@ export default function Graphics() {
         <h2 className="mb-8 text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           آیکون های اختصاصی
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           طیف گسترده ای از بیش از 400 آیکن و تصویر اختصاصی را کاوش کنید، که به
           طور ویژه طراحی شده اند تا به شما کمک کنند به راحتی وب سایت هاستینگ
           ایده آل خود را با سبک و سادگی ایجاد کنید.

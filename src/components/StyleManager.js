@@ -7,7 +7,7 @@ export default function StyleManager() {
         <h2 className="text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           مدیریت طرح ها
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           لاگوم ابزارهای ضروری را برای مدیریت رنگ ها و سبک های قالب بدون داشتن
           دانش کدنویسی ارائه میدهد. شما این اختیار را خواهید داشت که از سبک‌ها و
           طرح‌های رنگی مختلف استفاده کنید تا قالب را با سبک برند خود تطبیق دهید.

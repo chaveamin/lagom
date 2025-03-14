@@ -28,7 +28,7 @@ export default function Hero() {
           ساخت <span className="font-extrabold">بنرهای تبلیغاتی</span> زیبا در
           WHMCS
         </h2>
-        <p className="text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           با ایجاد بنرهای تبلیغاتی سفارشی در قالب لاگوم، فروش خود را افزایش دهید
           مکان بنر را انتخاب کنید و شروع به کسب درآمد کنید!
         </p>

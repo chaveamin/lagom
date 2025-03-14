@@ -46,7 +46,7 @@ export default function Features() {
         <h4 className="mb-8 text-2xl leading-12 font-extrabold text-zinc-800 lg:text-5xl lg:leading-16">
           ویژگی های کلیدی
         </h4>
-        <p className="text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           امکانات سفارشی سازی بی حد و حصر را با افزونه کد سفارشی آزاد کنید. HTML
           CSS و جاوا اسکریپت شخصی‌سازی شده را به آسانی وارد کنید تا قالب لاگوم
           خود را طراحی و تجربه کاربری منحصر به فردی را به آسانی ایجاد کنید.

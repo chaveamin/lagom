@@ -31,7 +31,7 @@ export default function Styles() {
         <h2 className="text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           طرح ها و رنگ های مختلف
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           سایت ساز لاگوم از 4 سبک منحصر به فرد تشکیل شده است. 5 طرح رنگی مختلف
           برای هر سبک موجود است.
         </p>

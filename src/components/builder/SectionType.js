@@ -72,7 +72,7 @@ export default function SectionType() {
         <h2 className="mb-8 text-3xl leading-14 font-black text-zinc-800 lg:text-5xl">
           بخش های مختلف
         </h2>
-        <p className="text-justify text-xl leading-8 font-light text-zinc-600 lg:text-2xl lg:leading-10">
+        <p className="text-justify text-xl leading-8 font-light text-zinc-500 lg:text-2xl lg:leading-10">
           در سایت ساز لاگوم، مجموعه‌ای غنی از انواع بخش‌های از پیش طراحی‌شده را
           خواهید دید که به شما این امکان را میدهد تا به آسانی صفحات وبسایت
           منحصربه‌ فرد و متناسبی را با چند کلیک ساده ایجاد کنید.
