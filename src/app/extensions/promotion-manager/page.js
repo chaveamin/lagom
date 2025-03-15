@@ -17,7 +17,6 @@ import Hero from '@/components/ext/promoton-manager/Hero'
 import Intro from '@/components/ext/promoton-manager/Intro'
 import Pricing from '@/components/ext/promoton-manager/Pricing'
 import Steps from '@/components/ext/promoton-manager/Steps'
-export const runtime = 'edge'
 
 export default function page() {
   return (
