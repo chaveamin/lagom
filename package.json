@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "pages:build": "npx @cloudflare/next-on-pages",
-    "preview": "npm run pages:build && wrangler pages dev",
-    "deploy": "npm run pages:build && wrangler pages deploy"
+    "preview": "opennextjs-cloudflare && wrangler dev",
+    "deploy": "opennextjs-cloudflare && wrangler deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
@@ -22,11 +22,13 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@opennextjs/cloudflare": "^0.5.11",
     "@tailwindcss/postcss": "^4.0.0",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
     "postcss": "^8",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.0.0"
+    "tailwindcss": "^4.0.0",
+    "wrangler": "^4.0.0"
   }
 }
