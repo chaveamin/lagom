@@ -9,6 +9,7 @@ import Pricing from '@/components/builder/Pricing'
 import SectionType from '@/components/builder/SectionType'
 import Sitemap from '@/components/builder/Sitemap'
 import Styles from '@/components/builder/Styles'
+export const runtime = 'edge'
 
 export const metadata = {
   title: 'سایت ساز لاگوم',

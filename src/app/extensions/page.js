@@ -13,6 +13,7 @@ export const metadata = {
 
 import CTA from '@/components/CTA'
 import Hero from '@/components/ext/Hero'
+export const runtime = 'edge'
 
 function extensions() {
   return (
