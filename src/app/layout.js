@@ -3,6 +3,7 @@ import localFont from 'next/font/local'
 import Topbar from '@/components/Topbar'
 import Footer from '@/components/Footer'
 import ClientOnlyNav from '@/components/ClientOnlyNav'
+export const runtime = 'edge'
 
 const dana = localFont({ src: './DanaVF.woff2', variable: '--font-dana' })
 
