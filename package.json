@@ -21,7 +21,6 @@
     "swiper": "^11.2.2"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.10",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4.0.0",
     "eslint": "^9",

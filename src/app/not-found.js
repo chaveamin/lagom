@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import notfound from '@/images/404.svg'
 import Link from 'next/link'
-export const runtime = 'edge'
 
 export default function Custom404() {
   return (

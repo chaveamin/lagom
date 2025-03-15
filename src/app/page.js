@@ -15,7 +15,6 @@ import CTA from '@/components/CTA'
 import Bg from '@/components/Bg'
 import FAQ from '@/components/FAQ'
 import LiveDemos from '@/components/LiveDemos'
-export const runtime = 'edge'
 
 export default function Home() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)

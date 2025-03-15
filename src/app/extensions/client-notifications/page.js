@@ -6,7 +6,6 @@ import Pricing from '@/components/ext/client-notif/Pricing'
 import Slider from '@/components/ext/client-notif/Slider'
 import UseCase from '@/components/ext/client-notif/UseCase'
 import FAQ from '@/components/ext/email-template/FAQ'
-export const runtime = 'edge'
 
 export const metadata = {
   title: 'افزونه اعلان مشتری برای قالب ناحیه کاربری لاگوم',
