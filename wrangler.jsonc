@@ -1,6 +1,0 @@
-{
-  "name": "lagom",
-  "compatibility_date": "2025-03-15",
-  "compatibility_flags": ["nodejs_compat"],
-  "pages_build_output_dir": ".vercel/output/static",
-}

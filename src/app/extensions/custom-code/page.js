@@ -3,6 +3,7 @@ import Features from '@/components/ext/custom-code/Features'
 import Hero from '@/components/ext/custom-code/Hero'
 import Intro from '@/components/ext/custom-code/Intro'
 import Pricing from '@/components/ext/custom-code/Pricing'
+export const runtime = 'edge'
 
 export const metadata = {
   title: 'افزونه کد سفارشی برای قالب ناحیه کاربری لاگوم',

@@ -5,6 +5,7 @@ import Hero from '@/components/ext/email-template/Hero'
 import Intro from '@/components/ext/email-template/Intro'
 import Pricing from '@/components/ext/email-template/Pricing'
 import Slider from '@/components/ext/email-template/Slider'
+export const runtime = 'edge'
 
 export const metadata = {
   title: 'افزونه قالب ایمیل برای قالب ناحیه کاربری لاگوم',

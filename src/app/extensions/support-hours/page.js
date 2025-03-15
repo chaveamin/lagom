@@ -5,6 +5,7 @@ import Hero from '@/components/ext/support-hours/Hero'
 import Holiday from '@/components/ext/support-hours/Holiday'
 import Pricing from '@/components/ext/support-hours/Pricing'
 import Slider from '@/components/ext/support-hours/Slider'
+export const runtime = 'edge'
 
 export const metadata = {
   title: 'افزونه ساعات کاری برای قالب ناحیه کاربری لاگوم',
