@@ -1,1 +1,1 @@
-## Lagom Landing Page with NextJs
+## Lagom Landing Page
