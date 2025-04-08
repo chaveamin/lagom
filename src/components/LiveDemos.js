@@ -321,7 +321,7 @@ export default function LiveDemos({ isOpen, onClose }) {
                       <a
                         target="_blank"
                         key={demo.id}
-                        href={`https://demo.rs-studio.ir/lagom/index.php?rsstyle=${demo.style}&rsmenulayout=${demo.layout}`}
+                        href={`https://lagom.designesia.ir/index.php?rsstyle=${demo.style}&rsmenulayout=${demo.layout}`}
                       >
                         <Image
                           width={330}
@@ -335,7 +335,7 @@ export default function LiveDemos({ isOpen, onClose }) {
                         <a
                           target="_blank"
                           className="rounded-sm border border-blue-600 px-8 py-2 text-sm font-semibold text-blue-600 transition-colors hover:bg-blue-600 hover:text-white"
-                          href={`https://demo.rs-studio.ir/lagom/index.php?rsstyle=${demo.style}&rsmenulayout=${demo.layout}`}
+                          href={`https://lagom.designesia.ir/index.php?rsstyle=${demo.style}&rsmenulayout=${demo.layout}`}
                         >
                           پیشنمایش
                         </a>
