@@ -28,7 +28,7 @@ export const metadata = {
     address: false,
     telephone: '09144871529',
   },
-  metadataBase: new URL('https://lagom.rs-studio.ir/products/client-theme/'),
+  metadataBase: new URL('https://designesia.ir'),
   openGraph: {
     images: '/og-image.webp',
   },
