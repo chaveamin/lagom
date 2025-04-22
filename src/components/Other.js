@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const features = [
   {
     id: 'layout',
@@ -59,10 +57,8 @@ export default function Other() {
       <div className="relative mx-auto mt-10 grid w-full grid-cols-1 gap-y-12 md:grid-cols-2 lg:mt-20 lg:max-w-5xl lg:grid-cols-3">
         {features.map((f) => (
           <div key={f.title} className="flex max-w-72 flex-col">
-            <Image
+            <img
               className="rounded-lg ring shadow-lg shadow-zinc-800/7 ring-zinc-200"
-              width={288}
-              height={500}
               src={`/small_feature-${f.id}.webp`}
               alt={f.title}
             />

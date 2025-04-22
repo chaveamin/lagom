@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const customization = [
   {
     id: '1',
@@ -54,13 +52,11 @@ export default function Customize() {
       <div className="grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
         {customization.map((c) => (
           <div className="flex flex-col gap-y-3" key={c.id}>
-            <Image
+            <img
               className="rounded-lg ring shadow-sm shadow-zinc-800/5 ring-zinc-200"
-              width={240}
-              height={180}
               src={`/email/lagom-email-gallery-${c.id}.webp`}
               alt="قالب ایمیل لاگوم"
-            ></Image>
+            />
             <h3 className="text-xl font-bold">{c.title}</h3>
             <p className="mb-2 text-justify font-light text-zinc-700">
               {c.desc}

@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper/modules'
 import * as motion from 'motion/react-client'
-import Image from 'next/image'
 import 'swiper/css'
 
 const layouts = [
@@ -46,7 +45,7 @@ export default function DifferentLayout() {
                 target="_blank"
                 href={`https://demo.rsstudio.net/lagom/index.php?rsstyle=modern&rsmenulayout=${layout}`}
               >
-                <Image
+                <img
                   className="lg:shadow-3xl mx-auto w-3/4 rounded-xl ring-1 shadow-xl shadow-zinc-800/5 ring-zinc-900/8"
                   width={1700}
                   height={1200}

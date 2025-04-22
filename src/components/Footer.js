@@ -1,6 +1,3 @@
-import lagom from '@/images/lagom.svg'
-import Image from 'next/image'
-
 const navigation = {
   products: [
     { name: 'قالب ناحیه کاربری', href: '#' },
@@ -93,7 +90,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-6 pt-16 pb-8 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <Image alt="لاگوم" src={lagom} className="h-auto w-24" />
+            <img alt="لاگوم" src="/lagom.svg" className="h-auto w-24" />
             <p className="text-base font-light text-zinc-600">
               لاگوم پکیج حرفه ای قالب ها و ابزارهای WHMCS که برای ارتقای کسب و
               کار هاستینگ شما طراحی شده اند و تجربه کاربری یکپارچه و حرفه ای را

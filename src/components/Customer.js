@@ -3,35 +3,30 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import { Pagination } from 'swiper/modules'
-import digitalvps from '@/images/digitalvps.webp'
-import fannegarhost from '@/images/fannegarhost.webp'
-import serversetup from '@/images/serversetup.webp'
-import irvm from '@/images/irvm.png'
-import Image from 'next/image'
 
 const customers = [
   {
     href: 'https://client.digitalvps.ir/',
     name: 'دیجیتال وی پی اس',
-    logo: digitalvps,
+    logo: '/digitalvps.webp',
     address: 'digitalvps.ir',
   },
   {
     href: 'https://panel.fannegar-host.com/',
     name: 'فن نگار هاست',
-    logo: fannegarhost,
+    logo: '/fannegarhost.webp',
     address: 'panel.fannegar-host.com',
   },
   {
     href: 'https://client.serversetup.co/',
     name: 'سرور ستاپ',
-    logo: serversetup,
+    logo: '/serversetup.webp',
     address: 'client.serversetup.co',
   },
   {
     href: 'https://portal.irvm.org/store/afranet',
     name: 'ایران وی ام',
-    logo: irvm,
+    logo: '/irvm.png',
     address: 'portal.irvm.org',
   },
 ]
@@ -84,12 +79,7 @@ export default function Customer() {
                     <h3 className="mb-2 text-xl font-semibold">{c.name}</h3>
                     <p className="text-zinc-800">{c.address}</p>
                   </div>
-                  <Image
-                    className="mr-auto"
-                    width={64}
-                    src={c.logo}
-                    alt={c.name}
-                  />
+                  <img className="mr-auto w-16" src={c.logo} alt={c.name} />
                 </div>
               </a>
             </SwiperSlide>

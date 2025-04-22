@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import * as motion from 'motion/react-client'
 
 function ExternalIcon() {
@@ -100,7 +99,7 @@ export default function Hero({ onPreviewClick }) {
               className="mt-16 flow-root sm:mt-24"
             >
               <div className="-m-2 rounded-(--card-radius) bg-gray-900/5 p-(--card-padding) ring-1 ring-gray-900/10 [--card-padding:--spacing(3)] [--card-radius:var(--radius-4xl)] ring-inset lg:-m-4">
-                <Image
+                <img
                   width={2432}
                   height={1442}
                   className="rounded-[calc(var(--card-radius)-var(--card-padding))] ring-1 shadow-2xl ring-gray-900/10"

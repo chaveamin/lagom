@@ -6,7 +6,6 @@ import {
   TabPanels,
   Transition,
 } from '@headlessui/react'
-import Image from 'next/image'
 
 const demos = [
   {
@@ -212,9 +211,7 @@ export default function Demos() {
                         href={slide.href}
                         className="group flex flex-col items-center gap-y-4"
                       >
-                        <Image
-                          width={1000}
-                          height={1000}
+                        <img
                           className="max-h-80 w-full rounded-lg object-cover ring shadow-sm ring-zinc-200 transition-all group-hover:-translate-y-px group-hover:shadow-2xl"
                           src={slide.image}
                           alt={slide.title}

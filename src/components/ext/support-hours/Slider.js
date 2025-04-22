@@ -3,11 +3,6 @@
 import * as motion from 'motion/react-client'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import Image from 'next/image'
-import supporthours_1 from '@/images/support_hours-main-1.png'
-import supporthours_2 from '@/images/support_hours-main-2.png'
-import supporthours_3 from '@/images/support_hours-main-3.png'
-import supporthours_4 from '@/images/support_hours-main-4.png'
 
 export default function Slider() {
   return (
@@ -24,32 +19,32 @@ export default function Slider() {
         slidesPerView={2}
       >
         <SwiperSlide>
-          <Image
+          <img
             className="shadow-4xl rounded-xl"
-            src={supporthours_1}
+            src="/support_hours-main-1.png"
             alt="افزونه ساعات کاری لاگوم"
-          ></Image>
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
+          <img
             className="shadow-4xl rounded-xl"
-            src={supporthours_2}
+            src="/support_hours-main-2.png"
             alt="افزونه ساعات کاری لاگوم"
-          ></Image>
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
+          <img
             className="shadow-4xl rounded-xl"
-            src={supporthours_3}
+            src="/support_hours-main-3.png"
             alt="افزونه ساعات کاری لاگوم"
-          ></Image>
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
+          <img
             className="shadow-4xl rounded-xl"
-            src={supporthours_4}
+            src="/support_hours-main-4.png"
             alt="افزونه ساعات کاری لاگوم"
-          ></Image>
+          />
         </SwiperSlide>
       </Swiper>
     </motion.section>

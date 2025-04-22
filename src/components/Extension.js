@@ -3,40 +3,34 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import { Pagination } from 'swiper/modules'
-import PM from '@/images/promotion-manager.svg'
-import ET from '@/images/email-template.svg'
-import CN from '@/images/client-notifications.svg'
-import CC from '@/images/custom-code.svg'
-import SH from '@/images/support-hours.svg'
-import Image from 'next/image'
 
 const extensions = [
   {
-    icon: PM,
+    icon: '/promotion-manager.svg',
     title: 'بنر تبلیغات',
     price: '1,880,000',
     href: '/promotion-manager',
   },
   {
-    icon: ET,
+    icon: '/email-template.svg',
     title: 'قالب ایمیل',
     price: '1,300,000',
     href: '/lagom-email-template',
   },
   {
-    icon: CN,
+    icon: '/client-notifications.svg',
     title: 'اعلان مشتری',
     price: '1,650,000',
     href: '/client-notifications',
   },
   {
-    icon: CC,
+    icon: '/custom-code.svg',
     title: 'کد سفارشی',
     price: '800,000',
     href: '/support-hours',
   },
   {
-    icon: SH,
+    icon: '/support-hours.svg',
     title: 'ساعا کاری',
     price: '1,300,000',
     href: '/support-hours',
@@ -82,7 +76,7 @@ export default function Extension() {
                 href={e.href}
                 className="mx-auto flex w-72 flex-col items-center rounded-lg py-12 ring shadow-lg shadow-zinc-800/8 ring-zinc-200"
               >
-                <Image className="size-28" src={e.icon} alt={e.title} />
+                <img className="size-28" src={e.icon} alt={e.title} />
                 <h3 className="mt-10 mb-4 text-xl font-bold text-zinc-800">
                   {e.title}
                 </h3>

@@ -1,9 +1,3 @@
-import lagom from '@/images/lagom.svg'
-import lagomsm from '@/images/lagomsm.svg'
-import clientThemeIcon from '@/images/client-theme.svg'
-import websiteBuilderIcon from '@/images/websitebuilder.svg'
-import oneSteoIcon from '@/images/onestep.svg'
-import Image from 'next/image'
 import clsx from 'clsx'
 import {
   Dialog,
@@ -24,20 +18,20 @@ const NavMenus = [
     description:
       'ناحیه کاربری WHMCS و قالب فرم سفارش، حاوی طرح‌بندی‌ها و سبک‌های متعدد.',
     href: '/',
-    icon: clientThemeIcon,
+    icon: '/client-theme.svg',
   },
   {
     name: 'سایت ساز',
     description:
       'سایت ساز WHMCS پیشرفته، با چندین صفحه و بخش از پیش تعریف شده.',
     href: '/website-builder',
-    icon: websiteBuilderIcon,
+    icon: '/websitebuilder.svg',
   },
   {
     name: 'فرم سفارش یک مرحله ای',
     description: 'به زودی...',
     href: '/',
-    icon: oneSteoIcon,
+    icon: '/onestep.svg',
   },
 ]
 
@@ -108,7 +102,7 @@ function Nav({ isScrolled, mobileMenuOpen, setMobileMenuOpen }) {
         <div className="flex flex-1">
           <Link href="/">
             <span className="sr-only">لاگوم</span>
-            <Image className="h-10 w-auto" src={lagom} alt="لاگوم" />
+            <img className="h-10 w-auto" src="/lagom.svg" alt="لاگوم" />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -138,12 +132,7 @@ function Nav({ isScrolled, mobileMenuOpen, setMobileMenuOpen }) {
                     className="group relative rounded-lg p-6 text-sm leading-6 transition-colors hover:bg-blue-50"
                   >
                     <div className="flex h-22 w-22 items-center justify-center rounded-lg bg-zinc-50 group-hover:bg-white">
-                      <Image
-                        width={48}
-                        height={48}
-                        alt={item.name}
-                        src={item.icon}
-                      />
+                      <img alt={item.name} src={item.icon} />
                     </div>
                     <PopoverButton
                       as={Link}
@@ -187,7 +176,7 @@ function Nav({ isScrolled, mobileMenuOpen, setMobileMenuOpen }) {
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">لاگوم</span>
-              <Image alt="لوگو" src={lagomsm} className="h-12 w-auto" />
+              <img alt="لوگو" src="/lagomsm.svg" className="h-12 w-auto" />
             </Link>
             <button
               type="button"

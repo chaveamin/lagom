@@ -1,5 +1,4 @@
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
-import Image from 'next/image'
 
 function Default() {
   return (
@@ -323,9 +322,7 @@ export default function LiveDemos({ isOpen, onClose }) {
                         key={demo.id}
                         href={`https://demo.rsstudio.net/lagom/index.php?rsstyle=${demo.style}&rsmenulayout=${demo.layout}`}
                       >
-                        <Image
-                          width={330}
-                          height={230}
+                        <img
                           alt={demo.id}
                           src={`/style-${demo.style}_layout-${demo.layout}.webp`}
                         />

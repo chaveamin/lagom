@@ -1,39 +1,33 @@
 import * as motion from 'motion/react-client'
-import PM from '@/images/promotion-manager.svg'
-import ET from '@/images/email-template.svg'
-import CN from '@/images/client-notifications.svg'
-import CC from '@/images/custom-code.svg'
-import SH from '@/images/support-hours.svg'
-import Image from 'next/image'
 import Link from 'next/link'
 
 const extensions = [
   {
-    icon: PM,
+    icon: '/promotion-manager.svg',
     title: 'بنر تبلیغات',
     price: '1,700,000',
     href: '/extensions/promotion-manager',
   },
   {
-    icon: ET,
+    icon: '/email-template.svg',
     title: 'قالب ایمیل',
     price: '1,300,000',
     href: '/extensions/lagom-email-template',
   },
   {
-    icon: CN,
+    icon: '/client-notifications.svg',
     title: 'اعلان مشتری',
     price: '1,700,000',
     href: '/extensions/client-notifications/',
   },
   {
-    icon: SH,
+    icon: '/support-hours.svg',
     title: 'ساعات کاری',
     price: '1,300,000',
     href: '/extensions/support-hours/',
   },
   {
-    icon: CC,
+    icon: '/custom-code.svg',
     title: 'کد سفارشی',
     price: '800,000',
     href: '/extensions/custom-code/',
@@ -59,7 +53,7 @@ export default function Hero() {
             href={e.href}
             className="flex w-full max-w-80 flex-col items-center rounded-lg bg-white py-12 ring shadow-lg shadow-zinc-800/8 ring-zinc-200 transition-transform duration-300 hover:-translate-y-2"
           >
-            <Image className="size-36" src={e.icon} alt={e.title} />
+            <img className="size-36" src={e.icon} alt={e.title} />
             <h3 className="mt-10 mb-4 text-xl font-bold text-zinc-800">
               {e.title}
             </h3>
