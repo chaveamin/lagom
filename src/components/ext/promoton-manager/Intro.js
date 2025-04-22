@@ -65,7 +65,7 @@ export default function Intro() {
         <div className="flex flex-col items-start gap-y-6 lg:flex-row lg:items-center lg:gap-x-6">
           <a
             className="text-xl font-semibold text-blue-600 lg:mr-auto lg:text-center"
-            href="https://documentations.liara.run/docs/lagom"
+            href="https://docs-eta-amber.vercel.app/"
             target="_blank"
           >
             راهنمای محصول

@@ -37,7 +37,7 @@ export default function Hero() {
             className="w-full bg-blue-600 text-white transition-colors hover:bg-blue-700 lg:w-fit"
             href="#pricing"
           >
-            شروع از 1,400,000 تومانءءء/سالانه
+            شروع از 1,650,000 تومانءءء/سالانه
           </a>
           <a
             className="w-full border-2 border-blue-600 text-blue-600 transition-colors hover:bg-blue-100 lg:w-fit"
@@ -47,7 +47,7 @@ export default function Hero() {
           </a>
           <a
             className="text-center text-xl font-bold text-blue-600 lg:mr-auto"
-            href="https://documentations.liara.run/docs/lagom"
+            href="https://docs-eta-amber.vercel.app/"
             target="_blank"
           >
             راهنمای محصول

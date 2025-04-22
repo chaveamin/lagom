@@ -47,7 +47,7 @@ export default function Hero() {
           </a>
           <a
             className="text-center text-xl font-bold text-blue-600 lg:mr-auto"
-            href="https://documentations.liara.run/docs/lagom"
+            href="https://docs-eta-amber.vercel.app/"
             target="_blank"
           >
             راهنمای محصول

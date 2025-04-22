@@ -33,7 +33,7 @@ const navigation = {
     { name: 'وبلاگ', href: '#' },
     { name: 'سایت های قدرت گرفته', href: '#' },
     { name: 'پشتیبانی', href: 'https://t.me/sicktoy' },
-    { name: 'راهنما', href: 'https://documentations.liara.run/docs/lagom' },
+    { name: 'راهنما', href: 'https://docs-eta-amber.vercel.app/' },
     {
       name: 'ناحیه کاربری',
       href: 'https://designesia.ir/account/?tab=dashboard',

@@ -17,7 +17,7 @@ function Topbar() {
           <a
             target="_blank"
             className="items-center px-4 py-2 text-sm text-zinc-500 transition-colors hover:text-blue-600"
-            href="https://documentations.liara.run/docs/lagom"
+            href="https://docs-eta-amber.vercel.app/"
           >
             راهنما
           </a>

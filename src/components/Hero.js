@@ -84,7 +84,7 @@ export default function Hero({ onPreviewClick }) {
                 </a>
                 <a
                   className="text-center text-lg font-bold text-blue-600 lg:mr-auto"
-                  href="https://documentations.liara.run/docs/lagom"
+                  href="https://docs-eta-amber.vercel.app/"
                   target="_blank"
                 >
                   راهنمای محصول

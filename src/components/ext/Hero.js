@@ -17,19 +17,19 @@ const extensions = [
   {
     icon: ET,
     title: 'قالب ایمیل',
-    price: '900,000',
+    price: '1,300,000',
     href: '/extensions/lagom-email-template',
   },
   {
     icon: CN,
     title: 'اعلان مشتری',
-    price: '1,400,000',
+    price: '1,650,000',
     href: '/extensions/client-notifications/',
   },
   {
     icon: SH,
     title: 'ساعات کاری',
-    price: '1,000,000',
+    price: '1,300,000',
     href: '/extensions/support-hours/',
   },
   {
