@@ -6,6 +6,7 @@ import { Pagination } from 'swiper/modules'
 import digitalvps from '@/images/digitalvps.webp'
 import fannegarhost from '@/images/fannegarhost.webp'
 import serversetup from '@/images/serversetup.webp'
+import irvm from '@/images/irvm.png'
 import Image from 'next/image'
 
 const customers = [
@@ -26,6 +27,12 @@ const customers = [
     name: 'سرور ستاپ',
     logo: serversetup,
     address: 'client.serversetup.co',
+  },
+  {
+    href: 'https://portal.irvm.org/store/afranet',
+    name: 'ایران وی ام',
+    logo: irvm,
+    address: 'portal.irvm.org',
   },
 ]
 

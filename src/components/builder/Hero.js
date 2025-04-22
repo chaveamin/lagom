@@ -85,7 +85,10 @@ export default function Hero() {
                 >
                   تعرفه
                 </a>
-                <a href="#" className="text-base/6 font-semibold text-gray-900">
+                <a
+                  href="https://demo.rsstudio.net/lagom-website-builder/"
+                  className="text-base/6 font-semibold text-gray-900"
+                >
                   پیشنمایش
                 </a>
               </div>

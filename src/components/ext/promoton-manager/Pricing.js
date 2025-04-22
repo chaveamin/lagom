@@ -63,20 +63,16 @@ export default function Pricing() {
               <CheckIcon aria-hidden="true" />6 ماه پشتیبانی
             </li>
             <li>
-              <CheckIcon aria-hidden="true" />1 سال آپدیت
+              <CheckIcon aria-hidden="true" />6 ماه آپدیت
             </li>
             <li>
               <CheckIcon aria-hidden="true" />
-              بدون محدودیت دامنه
-            </li>
-            <li>
-              <CheckIcon aria-hidden="true" />
-              لایسنس مادام العمر
+              لایسنس یک ساله
             </li>
           </ul>
           <a
             className="mt-8 block rounded-md bg-blue-600 px-3.5 py-2 text-center text-sm/6 font-semibold text-white shadow-xs hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-            href="https://designesia.ir/downloads/lagom-whmcs-theme/"
+            href="https://designesia.ir/downloads/lagom-promotion-manager/"
             target="_blank"
           >
             سفارش دهید

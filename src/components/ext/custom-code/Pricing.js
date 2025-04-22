@@ -45,15 +45,11 @@ export default function Pricing() {
               <CheckIcon aria-hidden="true" />6 ماه پشتیبانی
             </li>
             <li>
-              <CheckIcon aria-hidden="true" />1 سال آپدیت
+              <CheckIcon aria-hidden="true" />6 ماه آپدیت
             </li>
             <li>
               <CheckIcon aria-hidden="true" />
-              بدون محدودیت دامنه
-            </li>
-            <li>
-              <CheckIcon aria-hidden="true" />
-              لایسنس مادام العمر
+              لایسنس یک ساله
             </li>
           </ul>
           <a

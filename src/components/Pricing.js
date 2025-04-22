@@ -50,15 +50,11 @@ export default function Pricing() {
               <CheckIcon aria-hidden="true" />6 ماه پشتیبانی
             </li>
             <li>
-              <CheckIcon aria-hidden="true" />1 سال آپدیت
+              <CheckIcon aria-hidden="true" />6 ماه آپدیت
             </li>
             <li>
               <CheckIcon aria-hidden="true" />
-              بدون محدودیت دامنه
-            </li>
-            <li>
-              <CheckIcon aria-hidden="true" />
-              لایسنس مادام العمر
+              لایسنس یک ساله
             </li>
           </ul>
           <a
@@ -70,11 +66,11 @@ export default function Pricing() {
           </a>
         </div>
         <div>
-          <h4 className="text-lg font-semibold text-blue-600">امگا</h4>
+          <h4 className="text-lg font-semibold text-blue-600">آلفا</h4>
           <div className="relative pb-10 text-center before:absolute before:right-0 before:bottom-0 before:h-[3px] before:w-10 before:rounded-xs before:bg-blue-600 before:content-['']">
             <div className="mt-4 flex items-baseline gap-x-2">
               <span className="text-4xl font-semibold tracking-tight text-gray-900">
-                2,500,000 تومانءءء
+                3,150,000 تومانءءء
               </span>
               <span className="text-base/7 font-semibold text-gray-600">
                 /سالانه
@@ -93,15 +89,11 @@ export default function Pricing() {
               <CheckIcon aria-hidden="true" />6 ماه پشتیبانی
             </li>
             <li>
-              <CheckIcon aria-hidden="true" />1 سال آپدیت
+              <CheckIcon aria-hidden="true" />6 ماه آپدیت
             </li>
             <li>
               <CheckIcon aria-hidden="true" />
-              بدون محدودیت دامنه
-            </li>
-            <li>
-              <CheckIcon aria-hidden="true" />
-              لایسنس مادام العمر
+              لایسنس یک ساله
             </li>
           </ul>
           <a
