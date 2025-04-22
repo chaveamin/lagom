@@ -11,7 +11,7 @@ const extensions = [
   {
     icon: PM,
     title: 'بنر تبلیغات',
-    price: '1,880,000',
+    price: '1,700,000',
     href: '/extensions/promotion-manager',
   },
   {
@@ -23,7 +23,7 @@ const extensions = [
   {
     icon: CN,
     title: 'اعلان مشتری',
-    price: '1,650,000',
+    price: '1,700,000',
     href: '/extensions/client-notifications/',
   },
   {

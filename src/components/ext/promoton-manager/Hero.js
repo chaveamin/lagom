@@ -37,7 +37,7 @@ export default function Hero() {
             className="w-full bg-blue-600 text-white transition-colors hover:bg-blue-700 lg:w-fit"
             href="#pricing"
           >
-            شروع از 1,880,000 تومانءءء/سالانه
+            شروع از 1,700,000 تومانءءء/سالانه
           </a>
           <a
             className="w-full border-2 border-blue-600 text-blue-600 transition-colors hover:bg-blue-100 lg:w-fit"
