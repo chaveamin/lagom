@@ -29,7 +29,7 @@ const navigation = {
   resources: [
     { name: 'وبلاگ', href: '#' },
     { name: 'سایت های قدرت گرفته', href: '#' },
-    { name: 'پشتیبانی', href: 'https://t.me/sicktoy' },
+    { name: 'پشتیبانی', href: 'tg://resolve?domain=frontmstr' },
     { name: 'راهنما', href: 'https://docs-eta-amber.vercel.app/' },
     {
       name: 'ناحیه کاربری',
@@ -39,7 +39,7 @@ const navigation = {
   social: [
     {
       name: 'Telegram',
-      href: 'https://t.me/sicktoy',
+      href: 'tg://resolve?domain=frontmstr',
       icon: (props) => (
         <svg
           fill="currentColor"

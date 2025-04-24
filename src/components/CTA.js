@@ -8,9 +8,7 @@ export default function CTA() {
         برای شروع پروژه با بنده تماس بگیرید.
       </p>
       <div className="mt-10 flex flex-col justify-center gap-6 px-4 *:min-w-42 *:rounded-lg *:bg-white *:p-4 *:text-xl *:font-bold *:text-blue-600 *:transition-opacity *:hover:opacity-90 lg:flex-row">
-        <a href="https://t.me/sicktoy" target="_blank">
-          تلگرام
-        </a>
+        <a href="tg://resolve?domain=frontmstr">تلگرام</a>
         <a href="mailto:aminchave@gmail.com" target="_blank">
           ایمیل
         </a>

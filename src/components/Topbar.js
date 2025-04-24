@@ -22,7 +22,7 @@ function Topbar() {
           <a
             target="_blank"
             className="items-center px-4 py-2 text-sm text-zinc-500 transition-colors hover:text-blue-600"
-            href="https://t.me/sicktoy"
+            href="tg://resolve?domain=frontmstr"
           >
             پشتیبانی
           </a>
