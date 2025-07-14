@@ -25,85 +25,44 @@ export default function Pricing() {
           قیمت گذاری
         </h2>
       </div>
-      <div className="mx-auto grid max-w-md grid-cols-1 gap-8 *:flex *:flex-col *:justify-between *:rounded-3xl *:bg-white *:p-8 *:ring-1 *:shadow-xl *:ring-gray-900/10 *:sm:p-10 lg:max-w-4xl lg:grid-cols-2">
-        <div>
-          <h4 className="text-lg font-semibold text-blue-600">امگا</h4>
-          <div className="relative pb-10 text-center before:absolute before:right-0 before:bottom-0 before:h-[3px] before:w-10 before:rounded-xs before:bg-blue-600 before:content-['']">
-            <div className="mt-4 flex items-baseline gap-x-2">
-              <span className="text-4xl font-semibold tracking-tight text-gray-900">
-                1,360,000 تومانءءء
-              </span>
-              <span className="text-base/7 font-semibold text-gray-600">
-                /سالانه
-              </span>
-            </div>
+      <div className="mx-auto flex w-lg flex-col justify-between rounded-3xl bg-white p-8 ring-1 shadow-xl ring-gray-900/10 sm:p-10">
+        <h4 className="text-lg font-semibold text-blue-600">آلفا</h4>
+        <div className="relative pb-10 text-center before:absolute before:right-0 before:bottom-0 before:h-[3px] before:w-10 before:rounded-xs before:bg-blue-600 before:content-['']">
+          <div className="mt-4 flex items-baseline gap-x-2">
+            <span className="text-4xl font-semibold tracking-tight text-gray-900">
+              4,500,000 تومانءءء
+            </span>
+            <span className="text-base/7 font-semibold text-gray-600">
+              /سالانه
+            </span>
           </div>
-          <ul
-            role="list"
-            className="mt-10 space-y-4 text-sm text-gray-600 *:flex *:gap-x-3"
-          >
-            <li>
-              <CheckIcon aria-hidden="true" />
-              سازگار با نسخه PHP 7.4
-            </li>
-            <li>
-              <CheckIcon aria-hidden="true" />6 ماه پشتیبانی
-            </li>
-            <li>
-              <CheckIcon aria-hidden="true" />6 ماه آپدیت
-            </li>
-            <li>
-              <CheckIcon aria-hidden="true" />
-              لایسنس یک ساله
-            </li>
-          </ul>
-          <a
-            className="mt-8 block rounded-md bg-blue-600 px-3.5 py-2 text-center text-sm/6 font-semibold text-white shadow-xs hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-            href="https://designesia.ir/downloads/lagom-whmcs-theme/"
-            target="_blank"
-          >
-            سفارش دهید
-          </a>
         </div>
-        <div>
-          <h4 className="text-lg font-semibold text-blue-600">آلفا</h4>
-          <div className="relative pb-10 text-center before:absolute before:right-0 before:bottom-0 before:h-[3px] before:w-10 before:rounded-xs before:bg-blue-600 before:content-['']">
-            <div className="mt-4 flex items-baseline gap-x-2">
-              <span className="text-4xl font-semibold tracking-tight text-gray-900">
-                3,150,000 تومانءءء
-              </span>
-              <span className="text-base/7 font-semibold text-gray-600">
-                /سالانه
-              </span>
-            </div>
-          </div>
-          <ul
-            role="list"
-            className="mt-10 space-y-4 text-sm text-gray-600 *:flex *:gap-x-3"
-          >
-            <li>
-              <CheckIcon aria-hidden="true" />
-              سازگار با نسخه PHP 8.1
-            </li>
-            <li>
-              <CheckIcon aria-hidden="true" />6 ماه پشتیبانی
-            </li>
-            <li>
-              <CheckIcon aria-hidden="true" />6 ماه آپدیت
-            </li>
-            <li>
-              <CheckIcon aria-hidden="true" />
-              لایسنس یک ساله
-            </li>
-          </ul>
-          <a
-            className="mt-8 block rounded-md bg-blue-600 px-3.5 py-2 text-center text-sm/6 font-semibold text-white shadow-xs hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-            href="https://designesia.ir/downloads/lagom-whmcs-theme/"
-            target="_blank"
-          >
-            سفارش دهید
-          </a>
-        </div>
+        <ul
+          role="list"
+          className="mt-10 space-y-4 text-sm text-gray-600 *:flex *:gap-x-3"
+        >
+          <li>
+            <CheckIcon aria-hidden="true" />
+            سازگار با نسخه PHP 8.1
+          </li>
+          <li>
+            <CheckIcon aria-hidden="true" />6 ماه پشتیبانی
+          </li>
+          <li>
+            <CheckIcon aria-hidden="true" />6 ماه آپدیت
+          </li>
+          <li>
+            <CheckIcon aria-hidden="true" />
+            لایسنس یک ساله
+          </li>
+        </ul>
+        <a
+          className="mt-8 block rounded-md bg-blue-600 px-3.5 py-2 text-center text-sm/6 font-semibold text-white shadow-xs hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+          href="https://designesia.ir/downloads/lagom-whmcs-theme/"
+          target="_blank"
+        >
+          سفارش دهید
+        </a>
       </div>
     </section>
   )

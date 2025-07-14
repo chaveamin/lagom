@@ -5,31 +5,31 @@ const extensions = [
   {
     icon: '/promotion-manager.svg',
     title: 'بنر تبلیغات',
-    price: '1,700,000',
+    price: '2,600,000',
     href: '/extensions/promotion-manager',
   },
   {
     icon: '/email-template.svg',
     title: 'قالب ایمیل',
-    price: '1,300,000',
+    price: '2,000,000',
     href: '/extensions/lagom-email-template',
   },
   {
     icon: '/client-notifications.svg',
     title: 'اعلان مشتری',
-    price: '1,700,000',
+    price: '2,500,000',
     href: '/extensions/client-notifications/',
   },
   {
     icon: '/support-hours.svg',
     title: 'ساعات کاری',
-    price: '1,300,000',
+    price: '2,000,000',
     href: '/extensions/support-hours/',
   },
   {
     icon: '/custom-code.svg',
     title: 'کد سفارشی',
-    price: '800,000',
+    price: '2,000,000',
     href: '/extensions/custom-code/',
   },
 ]

@@ -51,7 +51,7 @@ export default function Hero({ onPreviewClick }) {
               </p>
               <div className="mt-10 flex flex-col items-center gap-6 lg:flex-row lg:justify-between">
                 <a
-                  href="#"
+                  href="#pricing"
                   className="rounded-md bg-blue-600 px-3.5 py-2.5 text-lg font-semibold text-white shadow-xs hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
                   قیمت گذاری

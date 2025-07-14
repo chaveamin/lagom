@@ -30,7 +30,7 @@ export default function Pricing() {
           <div className="relative pb-10 text-center before:absolute before:right-0 before:bottom-0 before:h-[3px] before:w-10 before:rounded-xs before:bg-blue-600 before:content-['']">
             <div className="mt-4 flex items-baseline gap-x-2">
               <span className="text-4xl font-semibold tracking-tight text-gray-900">
-                800,000 تومانءءء
+                2,000,000 تومانءءء
               </span>
               <span className="text-base/7 font-semibold text-gray-600">
                 /سالانه
