@@ -3,6 +3,12 @@ import Link from 'next/link'
 
 const extensions = [
   {
+    icon: '/client-notifications.svg',
+    title: 'اعلان مشتری',
+    price: '2,500,000',
+    href: '/extensions/client-notifications/',
+  },
+  {
     icon: '/promotion-manager.svg',
     title: 'بنر تبلیغات',
     price: '2,600,000',
@@ -14,12 +20,13 @@ const extensions = [
     price: '2,000,000',
     href: '/extensions/lagom-email-template',
   },
-  {
-    icon: '/client-notifications.svg',
-    title: 'اعلان مشتری',
-    price: '2,500,000',
-    href: '/extensions/client-notifications/',
-  },
+  // {
+  //   icon: '/sensitive-data.svg',
+  //   title: 'داده‌های حساس',
+  //   price: '2,000,000',
+  //   href: '#',
+  //   badge: 'جدید',
+  // },
   {
     icon: '/support-hours.svg',
     title: 'ساعات کاری',
@@ -51,8 +58,11 @@ export default function Hero() {
           <Link
             key={e.title}
             href={e.href}
-            className="flex w-full max-w-80 flex-col items-center rounded-lg bg-white py-12 ring shadow-lg shadow-zinc-800/8 ring-zinc-200 transition-transform duration-300 hover:-translate-y-2"
+            className="relative flex w-full max-w-80 flex-col items-center overflow-hidden rounded-lg bg-white py-12 ring shadow-lg shadow-zinc-800/8 ring-zinc-200 transition-transform duration-300 hover:-translate-y-2"
           >
+            <p className="badge absolute top-6 -left-12 w-40 -rotate-45 bg-blue-100 text-center text-lg font-bold text-blue-600">
+              {e.badge}
+            </p>
             <img className="size-36" src={e.icon} alt={e.title} />
             <h3 className="mt-10 mb-4 text-xl font-bold text-zinc-800">
               {e.title}
